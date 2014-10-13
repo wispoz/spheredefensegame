@@ -1,4 +1,4 @@
-spheredefensegame
+Sphere Defense Game
 =================
 
 Tower Defense Game for Android. 

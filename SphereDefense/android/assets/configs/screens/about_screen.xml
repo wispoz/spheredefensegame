@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<languages>
+        <language id="1" name="english" />
+        <language id="2" name="russian" />
+    </languages>
+    <assets>
+	    <textures root_path="textures/screens/about/">
+	        <texture id="1" file_name="bg_main.png" />
+	        <texture id="101" file_name="lbl_title_eng.png" language_id="1" />
+	        <texture id="102" file_name="lbl_title_rus.png" language_id="2" />
+	        <texture id="103" file_name="lbl_author_eng.png" language_id="1" />
+	        <texture id="104" file_name="lbl_author_rus.png" language_id="2" />
+	        <texture id="105" file_name="lbl_email.png" />
+	        <texture id="106" file_name="lbl_license_eng.png" language_id="1" />
+	        <texture id="107" file_name="lbl_license_rus.png" language_id="2" />
+	        <texture id="501" file_name="btn_back.png" />
+	    </textures>
+		<fonts root_path="fonts/">
+		    <font id="1" file_name="exo_2_0_bold.fnt" />
+		</fonts>
+		<sounds root_path="sounds/">
+		    <sound file_name="btn_touch.mp3" />
+		</sounds>
+	</assets>
+	<panels>
+    	<labels>
+	        <label name="bg_main">
+	            <rectangle x="-27" y="-60" width="854" height="600" />
+	            <texture id="1" />
+	        </label>
+	        <label name="lbl_title">
+	            <rectangle x="200" y="10" width="400" height="96" />
+	            <texture id="101" language_id="1" />
+	            <texture id="102" language_id="2" />
+	        </label>
+	        <label name="lbl_author">
+	            <rectangle x="180" y="116" width="440" height="120" />
+	            <texture id="103" language_id="1" />
+	            <texture id="104" language_id="2" />
+	        </label>
+	        <label name="lbl_email">
+	            <rectangle x="144" y="226" width="512" height="96" />
+	            <texture id="105" />
+	        </label>
+	        <label name="lbl_license">
+	            <rectangle x="200" y="325" width="400" height="24" />
+	            <texture id="106" language_id="1" />
+	            <texture id="107" language_id="2" />
+	        </label>
+	    </labels>
+		<buttons>
+		    <button name="btn_back">
+		        <rectangle x="12" y="372" width="96" height="96" />
+		       	<texture id="501" />
+		    </button>
+		</buttons>
+	</panels>
+</config>

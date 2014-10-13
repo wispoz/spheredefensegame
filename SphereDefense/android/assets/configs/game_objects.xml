@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <assets>
+	    <textures root_path="textures/game_objects/">
+	        <texture id="1101" file_name="cone_tower_light.png" />
+	        <texture id="1102" file_name="cone_tower_heavy.png" />
+	        <texture id="1103" file_name="pyramid_tower_light.png" />
+	        <texture id="1104" file_name="pyramid_tower_heavy.png" />
+	        <texture id="1105" file_name="cube_tower_light.png" />
+	        <texture id="1106" file_name="cube_tower_heavy.png" />
+	        <texture id="1107" file_name="cylinder_tower_light.png" />
+	        <texture id="1108" file_name="cylinder_tower_heavy.png" />
+	    </textures>
+	    <sprites root_path="textures/game_objects/">
+			<sprite id="1001" file_name="cone_bullet_light.png" rows="2" cols="5" groups="false" speed="0.2" />
+			<sprite id="1002" file_name="cone_bullet_heavy.png" rows="3" cols="5" groups="false" speed="0.2" />
+			<sprite id="1003" file_name="pyramid_bullet_light.png" rows="2" cols="5" groups="false" speed="0.2" />
+			<sprite id="1004" file_name="pyramid_bullet_heavy.png" rows="3" cols="5" groups="false" speed="0.2" />
+			<sprite id="1005" file_name="cube_bullet_light.png" rows="2" cols="5" groups="false" speed="0.2" />
+			<sprite id="1006" file_name="cube_bullet_heavy.png" rows="3" cols="5" groups="false" speed="0.2" />
+			<sprite id="1007" file_name="cylinder_bullet_light.png" rows="2" cols="5" groups="false" speed="0.2" />
+			<sprite id="1008" file_name="cylinder_bullet_heavy.png" rows="3" cols="5" groups="false" speed="0.2" />
+			<sprite id="1009" file_name="fire_circle_bullet.png" rows="2" cols="5" groups="false" speed="0.2" />
+	        <sprite id="1010" file_name="energy_circle_bullet.png" rows="2" cols="5" groups="false" speed="0.2" />
+			<sprite id="1201" file_name="enemy_1.png" enemy_name="barret" rows="4" cols="4" groups="true" speed="0.2" />
+	        <sprite id="1202" file_name="enemy_2.png" enemy_name="beadle" rows="4" cols="4" groups="true" speed="0.2" />
+	        <sprite id="1203" file_name="enemy_3.png" enemy_name="black_mage" rows="4" cols="4" groups="true" speed="0.2" />
+	        <sprite id="1204" file_name="enemy_4.png" enemy_name="brux" rows="4" cols="4" groups="true" speed="0.2" />
+	        <sprite id="1205" file_name="enemy_5.png" enemy_name="dewie" rows="4" cols="4" groups="true" speed="0.2" />
+	        <sprite id="1206" file_name="enemy_6.png" enemy_name="drax" rows="4" cols="4" groups="true" speed="0.25" />
+	        <sprite id="1207" file_name="enemy_7.png" enemy_name="golbez" rows="4" cols="4" groups="true" speed="0.25" />
+	        <sprite id="1208" file_name="enemy_8.png" enemy_name="xulk" rows="4" cols="4" groups="true" speed="0.25" />
+	        <sprite id="1209" file_name="enemy_9.png" enemy_name="jenova" rows="4" cols="4" groups="true" speed="0.25" />
+	        <sprite id="1210" file_name="enemy_10.png" enemy_name="killer" rows="4" cols="4" groups="true" speed="0.25" />
+	        <sprite id="1211" file_name="enemy_11.png" enemy_name="luminar" rows="4" cols="4" groups="true" speed="0.25" />
+	        <sprite id="1212" file_name="enemy_12.png" enemy_name="phoenix" rows="4" cols="4" groups="true" speed="0.3" />
+	        <sprite id="1213" file_name="enemy_13.png" enemy_name="pirate" rows="4" cols="4" groups="true" speed="0.3" />
+	        <sprite id="1214" file_name="enemy_14.png" enemy_name="ryuk" rows="4" cols="4" groups="true" speed="0.3" />
+	        <sprite id="1215" file_name="enemy_15.png" enemy_name="shadow" rows="4" cols="4" groups="true" speed="0.3" />
+	        <sprite id="1216" file_name="enemy_16.png" enemy_name="zemus" rows="4" cols="4" groups="true" speed="0.3" />
+	        <sprite id="1217" file_name="boss_1.png" enemy_name="leviathan" rows="4" cols="4" groups="true" speed="0.3" />
+	        <sprite id="1218" file_name="boss_2.png" enemy_name="ifrit" rows="4" cols="4" groups="true" speed="0.3" />
+	        <sprite id="1219" file_name="boss_3.png" enemy_name="bahamut" rows="4" cols="4" groups="true" speed="0.3" />
+			<sprite id="1301" file_name="cone_bullet_light_hit_explosion.png" rows="2" cols="5" groups="false" speed="0.1" />
+	        <sprite id="1302" file_name="cone_bullet_light_miss_explosion.png" rows="4" cols="3" groups="false" speed="0.15" />
+			<sprite id="1303" file_name="cone_bullet_heavy_hit_explosion.png" rows="3" cols="3" groups="false" speed="0.15" />
+	        <sprite id="1304" file_name="cone_bullet_heavy_miss_explosion.png" rows="4" cols="4" groups="false" speed="0.15" />
+	        <sprite id="1305" file_name="pyramid_bullet_light_hit_explosion.png" rows="2" cols="5" groups="false" speed="0.1" />
+	        <sprite id="1306" file_name="pyramid_bullet_light_miss_explosion.png" rows="4" cols="3" groups="false" speed="0.15" />
+	        <sprite id="1307" file_name="pyramid_bullet_heavy_hit_explosion.png" rows="3" cols="3" groups="false" speed="0.15" />
+	        <sprite id="1308" file_name="pyramid_bullet_heavy_miss_explosion.png" rows="4" cols="4" groups="false" speed="0.15" />
+	        <sprite id="1309" file_name="cube_bullet_light_hit_explosion.png" rows="2" cols="5" groups="false" speed="0.1" />
+	        <sprite id="1310" file_name="cube_bullet_light_miss_explosion.png" rows="4" cols="3" groups="false" speed="0.15" />
+	        <sprite id="1311" file_name="cube_bullet_heavy_hit_explosion.png" rows="3" cols="3" groups="false" speed="0.15" />
+	        <sprite id="1312" file_name="cube_bullet_heavy_miss_explosion.png" rows="4" cols="4" groups="false" speed="0.15" />
+	        <sprite id="1313" file_name="cylinder_bullet_light_hit_explosion.png" rows="2" cols="5" groups="false" speed="0.1" />
+	        <sprite id="1314" file_name="cylinder_bullet_light_miss_explosion.png" rows="4" cols="3" groups="false" speed="0.15" />
+	        <sprite id="1315" file_name="cylinder_bullet_heavy_hit_explosion.png" rows="3" cols="3" groups="false" speed="0.15" />
+	        <sprite id="1316" file_name="cylinder_bullet_heavy_miss_explosion.png" rows="4" cols="4" groups="false" speed="0.15" />
+	        <sprite id="1317" file_name="auxiliary_hit_explosion.png" rows="1" cols="5" groups="false" speed="0.1" />
+	        <sprite id="1318" file_name="auxiliary_miss_explosion.png" rows="4" cols="4" groups="false" speed="0.1" />
+	        <sprite id="1319" file_name="enemy_dead.png" rows="3" cols="3" groups="false" speed="0.1" />
+	    </sprites>
+    </assets>
+	<bullets>
+        <bullet name="cone_bullet_light" speed="150">
+            <sprite id="1001" />
+            <rectangle x="0" y="0" width="32" height="32" />
+        </bullet>
+        <bullet name="cone_bullet_heavy" speed="170">
+            <sprite id="1002" />
+            <rectangle x="0" y="0" width="32" height="32" />
+        </bullet>
+        <bullet name="pyramid_bullet_light" speed="130">
+			<sprite id="1003" />
+            <rectangle x="0" y="0" width="32" height="32" />
+        </bullet>
+        <bullet name="pyramid_bullet_heavy" speed="150">
+			<sprite id="1004" />
+            <rectangle x="0" y="0" width="32" height="32" />
+        </bullet>
+        <bullet name="cube_bullet_light" speed="110">
+            <sprite id="1005" />
+            <rectangle x="0" y="0" width="32" height="32" />
+        </bullet>
+        <bullet name="cube_bullet_heavy" speed="130">
+            <sprite id="1006" />
+            <rectangle x="0" y="0" width="32" height="32" />
+        </bullet>
+        <bullet name="cylinder_bullet_light" speed="90">
+            <sprite id="1007" />
+            <rectangle x="0" y="0" width="32" height="32" />
+        </bullet>
+        <bullet name="cylinder_bullet_heavy" speed="110">
+            <sprite id="1008" />
+            <rectangle x="0" y="0" width="32" height="32" />
+        </bullet>
+        <bullet name="energy_circle_bullet" speed="200">
+            <sprite id="1010" />
+            <rectangle x="0" y="0" width="64" height="64" />
+        </bullet>
+        <bullet name="fire_circle_bullet" speed="240">
+            <sprite id="1009" />
+            <rectangle x="0" y="0" width="64" height="64" />
+        </bullet>
+    </bullets>
+	<towers>
+        <tower name="cone_tower_light" buy_cost="75" sell_cost="45" range="100" damage="6">
+            <texture id="1101" />
+            <rectangle x="0" y="0" width="64" height="80" />
+			<offset x="0" y="40" />
+			<bullet name="cone_bullet_light" />
+			<build rate="3" />
+			<attack rate="3" />
+        </tower>
+        <tower name="cone_tower_heavy" buy_cost="200" sell_cost="120" range="120" damage="12">
+            <texture id="1102" />
+            <rectangle x="0" y="0" width="64" height="80" />
+			<offset x="0" y="40" />
+			<bullet name="cone_bullet_heavy" />
+			<build rate="3" />
+			<attack rate="3" />
+        </tower>
+        <tower name="pyramid_tower_light" buy_cost="100" sell_cost="60" range="120" damage="8">
+			<texture id="1103" />
+            <rectangle x="0" y="0" width="64" height="80" />
+			<offset x="0" y="40" />
+			<bullet name="pyramid_bullet_light" />
+			<build rate="3.5" />
+			<attack rate="3.5" />
+        </tower>
+        <tower name="pyramid_tower_heavy" buy_cost="225" sell_cost="135" range="140" damage="14">
+			<texture id="1104" />
+            <rectangle x="0" y="0" width="64" height="80" />
+			<offset x="0" y="40" />
+			<bullet name="pyramid_bullet_heavy" />
+			<build rate="3.5" />
+			<attack rate="3.5" />
+        </tower>
+        <tower name="cube_tower_light" buy_cost="125" sell_cost="75" range="140" damage="10">
+			<texture id="1105" />
+            <rectangle x="0" y="0" width="64" height="80" />
+			<offset x="0" y="32" />
+			<bullet name="cube_bullet_light" />
+			<build rate="4" />
+			<attack rate="4" />
+        </tower>
+        <tower name="cube_tower_heavy" buy_cost="250" sell_cost="150" range="160" damage="16">
+			<texture id="1106" />
+            <rectangle x="0" y="0" width="64" height="80" />
+			<offset x="0" y="32" />
+			<bullet name="cube_bullet_heavy" />
+			<build rate="4" />
+			<attack rate="4" />
+        </tower>
+        <tower name="cylinder_tower_light" buy_cost="150" sell_cost="90" range="160" damage="12">
+			<texture id="1107" />
+            <rectangle x="0" y="0" width="64" height="80" />
+			<offset x="0" y="32" />
+			<bullet name="cylinder_bullet_light" />
+			<build rate="5" />
+			<attack rate="5" />
+        </tower>
+        <tower name="cylinder_tower_heavy" buy_cost="275" sell_cost="165" range="180" damage="18">
+			<texture id="1108" />
+            <rectangle x="0" y="0" width="64" height="80" />
+			<offset x="0" y="32" />
+			<bullet name="cylinder_bullet_heavy" />
+			<build rate="5" />
+			<attack rate="5" />
+        </tower>
+    </towers>
+    <auxiliaries>
+        <auxiliary name="energy_circle" damage="8">
+            <position x="200" y="854" />
+            <bullet name="energy_circle_bullet" />
+            <attack rate="25" />
+        </auxiliary>
+        <auxiliary name="fire_circle" damage="12">
+            <position x="600" y="854" />
+            <bullet name="fire_circle_bullet" />
+            <attack rate="50" />
+        </auxiliary>
+    </auxiliaries>
+    <enemies>
+        <enemy name="barret" speed="35" health="8" damage="1" price="5">
+            <sprite id="1201" />
+            <rectangle x="0" y="0" width="32" height="48" />
+            <offset x="0" y="8" />
+        </enemy>
+        <enemy name="beadle" speed="35" health="10" damage="1" price="6">
+            <sprite id="1202" />
+            <rectangle x="0" y="0" width="32" height="48" />
+            <offset x="0" y="8" />
+        </enemy>
+        <enemy name="black_mage" speed="35" health="12" damage="1" price="7">
+            <resistance bullet_name="cone_bullet_light" pct="30" />
+            <resistance bullet_name="cone_bullet_heavy" pct="30" />
+            <sprite id="1203" />
+            <rectangle x="0" y="0" width="32" height="48" />
+            <offset x="0" y="8" />
+        </enemy>
+        <enemy name="brux" speed="35" health="14" damage="1" price="8">
+            <sprite id="1204" />
+            <rectangle x="0" y="0" width="32" height="48" />
+            <offset x="0" y="8" />
+        </enemy>
+        <enemy name="dewie" speed="35" health="16" damage="1" price="9">
+			<resistance bullet_name="pyramid_bullet_light" pct="30" />
+            <resistance bullet_name="pyramid_bullet_heavy" pct="30" />
+            <sprite id="1205" />
+            <rectangle x="0" y="0" width="32" height="48" />
+            <offset x="0" y="8" />
+        </enemy>
+        <enemy name="drax" speed="30" health="18" damage="1" price="10">
+            <sprite id="1206" />
+            <rectangle x="0" y="0" width="32" height="48" />
+            <offset x="0" y="8" />
+        </enemy>
+        <enemy name="golbez" speed="30" health="20" damage="1" price="11">
+            <sprite id="1207" />
+            <rectangle x="0" y="0" width="32" height="48" />
+            <offset x="0" y="8" />
+        </enemy>
+        <enemy name="xulk" speed="30" health="22" damage="1" price="12">
+			<resistance bullet_name="cube_bullet_light" pct="30" />
+            <resistance bullet_name="cube_bullet_heavy" pct="30" />
+            <sprite id="1208" />
+            <rectangle x="0" y="0" width="32" height="48" />
+            <offset x="0" y="8" />
+        </enemy>
+        <enemy name="jenova" speed="30" health="24" damage="1" price="13">
+            <sprite id="1209" />
+            <rectangle x="0" y="0" width="48" height="48" />
+            <offset x="0" y="8" />
+        </enemy>
+        <enemy name="killer" speed="30" health="26" damage="1" price="14">
+            <sprite id="1210" />
+            <rectangle x="0" y="0" width="32" height="48" />
+            <offset x="0" y="8" />
+        </enemy>
+        <enemy name="luminar" speed="30" health="28" damage="1" price="15">
+			<resistance bullet_name="cube_bullet_light" pct="30" />
+            <resistance bullet_name="cube_bullet_heavy" pct="30" />
+            <sprite id="1211" />
+            <rectangle x="0" y="0" width="32" height="48" />
+            <offset x="0" y="8" />
+        </enemy>
+        <enemy name="phoenix" speed="25" health="30" damage="1" price="16">
+            <sprite id="1212" />
+            <rectangle x="0" y="0" width="48" height="48" />
+            <offset x="0" y="8" />
+        </enemy>
+        <enemy name="pirate" speed="25" health="32" damage="1" price="17">
+			<resistance bullet_name="cylinder_bullet_light" pct="30" />
+            <resistance bullet_name="cylinder_bullet_heavy" pct="30" />
+            <sprite id="1213" />
+            <rectangle x="0" y="0" width="32" height="48" />
+            <offset x="0" y="8" />
+        </enemy>
+        <enemy name="ryuk" speed="25" health="34" damage="1" price="18">
+            <sprite id="1214" />
+            <rectangle x="0" y="0" width="32" height="48" />
+            <offset x="0" y="8" />
+        </enemy>
+        <enemy name="shadow" speed="25" health="36" damage="1" price="19">
+            <sprite id="1215" />
+            <rectangle x="0" y="0" width="32" height="48" />
+            <offset x="0" y="8" />
+        </enemy>
+        <enemy name="zemus" speed="25" health="38" damage="1" price="20">
+			<resistance bullet_name="cylinder_bullet_light" pct="30" />
+            <resistance bullet_name="cylinder_bullet_heavy" pct="30" />
+            <sprite id="1216" />
+            <rectangle x="0" y="0" width="32" height="48" />
+            <offset x="0" y="8" />
+        </enemy>
+        <enemy name="leviathan" speed="20" health="500" damage="12" price="0">
+            <sprite id="1217" />
+            <rectangle x="0" y="0" width="48" height="48" />
+            <offset x="0" y="8" />
+        </enemy>
+        <enemy name="ifrit" speed="20" health="600" damage="12" price="0">
+            <sprite id="1218" />
+            <rectangle x="0" y="0" width="48" height="48" />
+            <offset x="0" y="8" />
+        </enemy>
+        <enemy name="bahamut" speed="20" health="700" damage="12" price="0">
+            <sprite id="1219" />
+            <rectangle x="0" y="0" width="48" height="48" />
+            <offset x="0" y="8" />
+        </enemy>
+    </enemies>
+    <effects>
+        <effect name="cone_bullet_light_hit_explosion" duration="1">
+            <sprite id="1301" />
+            <rectangle x="0" y="0" width="48" height="48" />
+        </effect>
+        <effect name="cone_bullet_light_miss_explosion" duration="2">
+            <sprite id="1302" />
+            <rectangle x="0" y="0" width="48" height="24" />
+        </effect>
+        <effect name="cone_bullet_heavy_hit_explosion" duration="1.5">
+            <sprite id="1303" />
+            <rectangle x="0" y="0" width="48" height="48" />
+        </effect>
+        <effect name="cone_bullet_heavy_miss_explosion" duration="2.5">
+            <sprite id="1304" />
+            <rectangle x="0" y="0" width="48" height="48" />
+        </effect>
+        <effect name="pyramid_bullet_light_hit_explosion" duration="1">
+            <sprite id="1305" />
+            <rectangle x="0" y="0" width="48" height="48" />
+        </effect>
+        <effect name="pyramid_bullet_light_miss_explosion" duration="2">
+            <sprite id="1306" />
+            <rectangle x="0" y="0" width="48" height="24" />
+        </effect>
+        <effect name="pyramid_bullet_heavy_hit_explosion" duration="1.5">
+            <sprite id="1307" />
+            <rectangle x="0" y="0" width="48" height="48" />
+        </effect>
+        <effect name="pyramid_bullet_heavy_miss_explosion" duration="2.5">
+            <sprite id="1308" />
+            <rectangle x="0" y="0" width="48" height="48" />
+        </effect>
+        <effect name="cube_bullet_light_hit_explosion" duration="1">
+            <sprite id="1309" />
+            <rectangle x="0" y="0" width="48" height="48" />
+        </effect>
+        <effect name="cube_bullet_light_miss_explosion" duration="2">
+            <sprite id="1310" />
+            <rectangle x="0" y="0" width="48" height="24" />
+        </effect>
+        <effect name="cube_bullet_heavy_hit_explosion" duration="1.5">
+            <sprite id="1311" />
+            <rectangle x="0" y="0" width="48" height="48" />
+        </effect>
+        <effect name="cube_bullet_heavy_miss_explosion" duration="2.5">
+            <sprite id="1312" />
+            <rectangle x="0" y="0" width="48" height="48" />
+        </effect>
+        <effect name="cylinder_bullet_light_hit_explosion" duration="1">
+            <sprite id="1313" />
+            <rectangle x="0" y="0" width="48" height="48" />
+        </effect>
+        <effect name="cylinder_bullet_light_miss_explosion" duration="2">
+            <sprite id="1314" />
+            <rectangle x="0" y="0" width="48" height="24" />
+        </effect>
+        <effect name="cylinder_bullet_heavy_hit_explosion" duration="1.5">
+            <sprite id="1315" />
+            <rectangle x="0" y="0" width="48" height="48" />
+        </effect>
+        <effect name="cylinder_bullet_heavy_miss_explosion" duration="2.5">
+            <sprite id="1316" />
+            <rectangle x="0" y="0" width="48" height="48" />
+        </effect>
+        <effect name="auxiliary_hit_explosion" duration="1">
+            <sprite id="1317" />
+            <rectangle x="0" y="0" width="48" height="48" />
+        </effect>
+        <effect name="auxiliary_miss_explosion" duration="2.5">
+            <sprite id="1318" />
+            <rectangle x="0" y="0" width="48" height="48" />
+        </effect>
+        <effect name="enemy_dead" duration="1">
+            <sprite id="1319" />
+            <rectangle x="0" y="0" width="48" height="48" />
+        </effect>
+    </effects>
+</config>

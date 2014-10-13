@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <languages>
+        <language id="1" name="english" />
+        <language id="2" name="russian" />
+    </languages>
+    <assets>
+	    <textures root_path="textures/screens/game_play/">
+	        <texture id="1" file_name="bg_splash.png" />
+	        <texture id="101" file_name="lbl_status_bar.png" />
+	        <texture id="102" file_name="lbl_energy.png" />
+	        <texture id="103" file_name="lbl_diamond.png" />
+	        <texture id="104" file_name="lbl_wave.png" />
+	        <texture id="105" file_name="lbl_options_eng.png" language_id="1" />
+	        <texture id="106" file_name="lbl_options_rus.png" language_id="2" />
+	        <texture id="107" file_name="lbl_pause_eng.png" language_id="1" />
+	        <texture id="108" file_name="lbl_pause_rus.png" language_id="2" />
+	        <texture id="109" file_name="lbl_win_eng.png" language_id="1" />
+	        <texture id="110" file_name="lbl_win_rus.png" language_id="2" />
+	        <texture id="111" file_name="lbl_loss_eng.png" language_id="1" />
+	        <texture id="112" file_name="lbl_loss_rus.png" language_id="2" />
+	        <texture id="113" file_name="lbl_stars_1.png" />
+	        <texture id="114" file_name="lbl_stars_2.png" />
+	        <texture id="115" file_name="lbl_stars_3.png" />
+	        <texture id="116" file_name="lbl_health_bar_red.png" />
+	        <texture id="117" file_name="lbl_health_bar_green.png" />
+	        <texture id="118" file_name="lbl_build_bar_gray.png" />
+	        <texture id="119" file_name="lbl_build_bar_blue.png" />
+	        <texture id="120" file_name="lbl_build_tower_menu.png" />
+	        <texture id="121" file_name="lbl_tower_light_menu.png" />
+	        <texture id="122" file_name="lbl_tower_heavy_menu.png" />
+	        <texture id="123" file_name="lbl_tower_range.png" />
+	        <texture id="501" file_name="btn_play.png" />
+			<texture id="502" file_name="btn_next_wave.png" />
+	        <texture id="503" file_name="btn_energycircle.png" />
+	        <texture id="504" file_name="btn_firecircle.png" />
+	        <texture id="505" file_name="btn_options.png" />
+	        <texture id="506" file_name="btn_pause.png" />
+	        <texture id="507" file_name="btn_music_on.png" />
+	        <texture id="508" file_name="btn_music_off.png" />
+	        <texture id="509" file_name="btn_sound_on.png" />
+	        <texture id="510" file_name="btn_sound_off.png" />
+	        <texture id="511" file_name="btn_continue.png" />
+	        <texture id="512" file_name="btn_restart_1.png" />
+	        <texture id="513" file_name="btn_restart_2.png" />
+	        <texture id="514" file_name="btn_quit.png" />
+	        <texture id="515" file_name="btn_build_cone_light.png" />
+	        <texture id="516" file_name="btn_build_cone_heavy.png" />
+	        <texture id="517" file_name="btn_sale_cone_light.png" />
+	        <texture id="518" file_name="btn_sale_cone_heavy.png" />
+	        <texture id="519" file_name="btn_build_pyramid_light.png" />
+	        <texture id="520" file_name="btn_build_pyramid_heavy.png" />
+	        <texture id="521" file_name="btn_sale_pyramid_light.png" />
+	        <texture id="522" file_name="btn_sale_pyramid_heavy.png" />
+	        <texture id="523" file_name="btn_build_cube_light.png" />
+	        <texture id="524" file_name="btn_build_cube_heavy.png" />
+	        <texture id="525" file_name="btn_sale_cube_light.png" />
+	        <texture id="526" file_name="btn_sale_cube_heavy.png" />
+	        <texture id="527" file_name="btn_build_cylinder_light.png" />
+	        <texture id="528" file_name="btn_build_cylinder_heavy.png" />
+	        <texture id="529" file_name="btn_sale_cylinder_light.png" />
+	        <texture id="530" file_name="btn_sale_cylinder_heavy.png" />
+	    </textures>
+		<fonts root_path="fonts/">
+	        <font id="1" file_name="exo_2_0_bold.fnt" />
+	    </fonts>
+		<music root_path="music/">
+		    <track file_name="game_theme_1.mp3" level="1" />
+		    <track file_name="game_theme_1.mp3" level="2" />
+		    <track file_name="game_theme_1.mp3" level="3" />
+		    <track file_name="game_theme_1.mp3" level="4" />
+		    <track file_name="game_theme_2.mp3" level="5" />
+		    <track file_name="game_theme_2.mp3" level="6" />
+		    <track file_name="game_theme_2.mp3" level="7" />
+		    <track file_name="game_theme_2.mp3" level="8" />
+		    <track file_name="game_theme_3.mp3" level="9" />
+		    <track file_name="game_theme_3.mp3" level="10" />
+		    <track file_name="game_theme_3.mp3" level="11" />
+		    <track file_name="game_theme_3.mp3" level="12" />
+		</music>
+		<sounds root_path="sounds/">
+		    <sound file_name="btn_touch.mp3" />
+		    <sound file_name="btn_touch_1.mp3" />
+		    <sound file_name="btn_build_menu_touch.mp3" />
+		    <sound file_name="btn_tower_holder_touch.mp3" />
+		    <sound file_name="enemy_destroyed.mp3" />
+		    <sound file_name="enemy_survive.mp3" />
+		    <sound file_name="auxiliary_shot.mp3" />
+		    <sound file_name="tower_light_shot.mp3" />
+		    <sound file_name="tower_heavy_shot.mp3" />
+		    <sound file_name="btn_tower_place_holder_touch.mp3" />
+		    <sound file_name="hit_explosion.mp3" />
+		    <sound file_name="miss_explosion.mp3" />
+		</sounds>
+	</assets>
+	<panels>
+    	<labels>
+	        <label name="bg_splash" z_index="-106" visible="false">
+	            <rectangle x="-27" y="-60" width="854" height="600" />
+	            <texture id="1" />
+	        </label>
+	        <label name="lbl_status_bar" z_index="-101">
+	            <rectangle x="4" y="4" width="280" height="40" />
+	            <texture id="101" />
+	        </label>
+	        <label name="lbl_energy" z_index="-102" parent_name="lbl_status_bar">
+	            <rectangle x="4" y="6" width="28" height="28" />
+	            <texture id="102" />
+	        </label>
+	        <label name="lbl_diamond" z_index="-102" parent_name="lbl_status_bar">
+	            <rectangle x="84" y="6" width="28" height="28" />
+	            <texture id="103" />
+	        </label>
+	        <label name="lbl_wave" z_index="-102" parent_name="lbl_status_bar">
+	            <rectangle x="164" y="6" width="28" height="28" />
+	            <texture id="104" />
+	        </label>
+	        <label name="lbl_options" z_index="-106" visible="false">
+	            <rectangle x="200" y="44" width="400" height="96" />
+	            <texture id="105" language_id="1" />
+	            <texture id="106" language_id="2" />
+	        </label>
+	        <label name="lbl_pause" z_index="-106" visible="false">
+	            <rectangle x="272" y="192" width="256" height="96" />
+	            <texture id="107" language_id="1" />
+	            <texture id="108" language_id="2" />
+	        </label>
+	        <label name="lbl_win" z_index="-106" visible="false">
+	            <rectangle x="120" y="84" width="560" height="96" />
+	            <texture id="109" language_id="1" />
+	            <texture id="110" language_id="2" />
+	        </label>
+	        <label name="lbl_loss" z_index="-106" visible="false">
+	            <rectangle x="112" y="138" width="576" height="96" />
+	            <texture id="111" language_id="1" />
+	            <texture id="112" language_id="2" />
+	        </label>
+	        <label name="lbl_stars_1" z_index="-106" visible="false">
+	            <rectangle x="352" y="192" width="96" height="96" />
+	            <texture id="113" />
+	        </label>
+	        <label name="lbl_stars_2" z_index="-106" visible="false">
+	            <rectangle x="304" y="192" width="192" height="96" />
+	            <texture id="114" />
+	        </label>
+	        <label name="lbl_stars_3" z_index="-106" visible="false">
+	            <rectangle x="256" y="192" width="288" height="96" />
+	            <texture id="115" />
+	        </label>
+	        <label name="lbl_tower_range" z_index="-103" visible="false">
+	            <rectangle x="0" y="0" width="512" height="512" />
+	            <texture id="123" />
+	        </label>
+	    </labels>
+	    <text_fields>
+	        <text_field name="txt_energy" z_index="-103" parent_name="lbl_status_bar">
+	            <rectangle x="34" y="11" width="0" height="0" />
+	            <text>0</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.5" />
+	        </text_field>
+	        <text_field name="txt_diamonds" z_index="-103" parent_name="lbl_status_bar">
+	            <rectangle x="114" y="11" width="0" height="0" />
+	            <text>0</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.5" />
+	        </text_field>
+	        <text_field name="txt_current_wave" z_index="-103" parent_name="lbl_status_bar">
+	            <rectangle x="194" y="11" width="0" height="0" />
+	            <text>0</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.5" />
+	        </text_field>
+	        <text_field name="txt_separator" z_index="-103" parent_name="lbl_status_bar">
+	            <rectangle x="227" y="11" width="0" height="0" />
+	            <text>/</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.5" />
+	        </text_field>
+	        <text_field name="txt_waves_count" z_index="-103" parent_name="lbl_status_bar">
+	            <rectangle x="243" y="11" width="0" height="0" />
+	            <text>0</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.5" />
+	        </text_field>
+	    </text_fields>
+		<buttons>
+		    <button name="btn_play" z_index="-101">
+		        <rectangle x="748" y="428" width="48" height="48" />
+		       	<texture id="501" />
+		    </button>
+		    <button name="btn_next_wave" z_index="-101" visible="false">
+		        <rectangle x="748" y="428" width="48" height="48" />
+		       	<texture id="502" />
+		    </button>
+		    <button name="btn_energycircle" z_index="-101">
+		        <rectangle x="4" y="428" width="48" height="48" />
+		       	<texture id="503" />
+		    </button>
+		    <button name="btn_firecircle" z_index="-101">
+		        <rectangle x="56" y="428" width="48" height="48" />
+		       	<texture id="504" />
+		    </button>
+		    <button name="btn_options" z_index="-101">
+		        <rectangle x="748" y="4" width="48" height="48" />
+		       	<texture id="505" />
+		    </button>
+		    <button name="btn_pause" z_index="-101">
+		        <rectangle x="696" y="4" width="48" height="48" />
+		       	<texture id="506" />
+		    </button>
+		    <button name="btn_music" z_index="-108" visible="false">
+		        <rectangle x="298" y="174" width="96" height="96" />
+		       	<texture id="507" />
+		    </button>
+		    <button name="btn_sound" z_index="-108" visible="false">
+		        <rectangle x="406" y="174" width="96" height="96" />
+		       	<texture id="509" />
+		    </button>
+		    <button name="btn_continue" z_index="-108" visible="false">
+		        <rectangle x="298" y="300" width="96" height="96" />
+		       	<texture id="511" />
+		    </button>
+		    <button name="btn_restart_1" z_index="-108" visible="false">
+		        <rectangle x="298" y="282" width="96" height="96" />
+		       	<texture id="512" />
+		    </button>
+		    <button name="btn_restart_2" z_index="-108" visible="false">
+		        <rectangle x="406" y="300" width="96" height="96" />
+		       	<texture id="513" />
+		    </button>
+		    <button name="btn_quit" z_index="-108" visible="false">
+		        <rectangle x="406" y="282" width="96" height="96" />
+		       	<texture id="514" />
+		    </button>
+		</buttons>
+		<enemy_health_bar name="lbl_health_bar_red">
+            <rectangle x="0" y="0" width="60" height="4" />
+            <texture id="116" />
+	        <label name="lbl_health_bar_green">
+	            <rectangle x="0" y="0" width="60" height="4" />
+	            <texture id="117" />
+	        </label>
+	    </enemy_health_bar>
+		<tower_build_bar name="lbl_build_bar_gray">
+            <rectangle x="0" y="0" width="60" height="8" />
+            <texture id="118" />
+	        <label name="lbl_build_bar_blue">
+	            <rectangle x="0" y="0" width="60" height="8" />
+	            <texture id="119" />
+	        </label>
+	    </tower_build_bar>
+	    <game_play_field name="game_play_field">
+	        <rectangle x="-27" y="-60" width="854" height="600" />
+	    </game_play_field>
+		<towers_menu>
+		    <tower_menu name="build_tower_light_menu" z_index="-104" visible="false">
+		        <rectangle x="0" y="0" width="143" height="143" />
+		        <texture id="120" />
+		        <buttons>
+					<button name="btn_build_cone_light" z_index="-105" visible="false">
+				        <rectangle x="0" y="0" width="64" height="64" />
+				       	<texture id="515" />
+				    </button>
+					<button name="btn_build_pyramid_light" z_index="-105" visible="false">
+				        <rectangle x="0" y="0" width="64" height="64" />
+				       	<texture id="519" />
+				    </button>
+					<button name="btn_build_cube_light" z_index="-105" visible="false">
+				        <rectangle x="0" y="0" width="64" height="64" />
+				       	<texture id="523" />
+				    </button>
+					<button name="btn_build_cylinder_light" z_index="-105" visible="false">
+				        <rectangle x="0" y="0" width="64" height="64" />
+				       	<texture id="527" />
+				    </button>
+		        </buttons>
+		    </tower_menu>
+	        <tower_menu name="tower_cone_light_menu" z_index="-104" visible="false">
+	            <rectangle x="0" y="0" width="74" height="143" />
+	            <texture id="121" />
+	            <buttons>
+					<button name="btn_build_cone_heavy" z_index="-105" visible="false">
+				        <rectangle x="0" y="0" width="64" height="64" />
+				       	<texture id="516" />
+				    </button>
+					<button name="btn_sale_cone_light" z_index="-105" visible="false">
+				        <rectangle x="0" y="0" width="64" height="64" />
+				       	<texture id="517" />
+				    </button>
+	            </buttons>
+	        </tower_menu>
+			<tower_menu name="tower_cone_heavy_menu" z_index="-104" visible="false">
+	            <rectangle x="0" y="0" width="74" height="74" />
+	            <texture id="122" />
+	            <buttons>
+					<button name="btn_sale_cone_heavy" z_index="-105" visible="false">
+				        <rectangle x="0" y="0" width="64" height="64" />
+				       	<texture id="518" />
+				    </button>
+	            </buttons>
+	        </tower_menu>
+	        <tower_menu name="tower_pyramid_light_menu" z_index="-104" visible="false">
+	            <rectangle x="0" y="0" width="74" height="143" />
+	            <texture id="121" />
+	            <buttons>
+					<button name="btn_build_pyramid_heavy" z_index="-105" visible="false">
+				        <rectangle x="0" y="0" width="64" height="64" />
+				       	<texture id="520" />
+				    </button>
+					<button name="btn_sale_pyramid_light" z_index="-105" visible="false">
+				        <rectangle x="0" y="0" width="64" height="64" />
+				       	<texture id="521" />
+				    </button>
+	            </buttons>
+	        </tower_menu>
+			<tower_menu name="tower_pyramid_heavy_menu" z_index="-104" visible="false">
+	            <rectangle x="0" y="0" width="74" height="74" />
+	            <texture id="122" />
+	            <buttons>
+					<button name="btn_sale_pyramid_heavy" z_index="-105" visible="false">
+				        <rectangle x="0" y="0" width="64" height="64" />
+				       	<texture id="522" />
+				    </button>
+	            </buttons>
+	        </tower_menu>
+	        <tower_menu name="tower_cube_light_menu" z_index="-104" visible="false">
+	            <rectangle x="0" y="0" width="74" height="143" />
+	            <texture id="121" />
+	            <buttons>
+					<button name="btn_build_cube_heavy" z_index="-105" visible="false">
+				        <rectangle x="0" y="0" width="64" height="64" />
+				       	<texture id="524" />
+				    </button>
+					<button name="btn_sale_cube_light" z_index="-105" visible="false">
+				        <rectangle x="0" y="0" width="64" height="64" />
+				       	<texture id="525" />
+				    </button>
+	            </buttons>
+	        </tower_menu>
+			<tower_menu name="tower_cube_heavy_menu" z_index="-104" visible="false">
+	            <rectangle x="0" y="0" width="74" height="74" />
+	            <texture id="122" />
+	            <buttons>
+					<button name="btn_sale_cube_heavy" z_index="-105" visible="false">
+				        <rectangle x="0" y="0" width="64" height="64" />
+				       	<texture id="526" />
+				    </button>
+	            </buttons>
+	        </tower_menu>
+	        <tower_menu name="tower_cylinder_light_menu" z_index="-104" visible="false">
+	            <rectangle x="0" y="0" width="74" height="143" />
+	            <texture id="121" />
+	            <buttons>
+					<button name="btn_build_cylinder_heavy" z_index="-105" visible="false">
+				        <rectangle x="0" y="0" width="64" height="64" />
+				       	<texture id="528" />
+				    </button>
+					<button name="btn_sale_cylinder_light" z_index="-105" visible="false">
+				        <rectangle x="0" y="0" width="64" height="64" />
+				       	<texture id="529" />
+				    </button>
+	            </buttons>
+	        </tower_menu>
+	        <tower_menu name="tower_cylinder_heavy_menu" z_index="-104" visible="false">
+	            <rectangle x="0" y="0" width="74" height="74" />
+	            <texture id="122" />
+	            <buttons>
+					<button name="btn_sale_cylinder_heavy" z_index="-105" visible="false">
+				        <rectangle x="0" y="0" width="64" height="64" />
+				       	<texture id="530" />
+				    </button>
+	            </buttons>
+	        </tower_menu>
+    	</towers_menu>
+	</panels>
+</config>

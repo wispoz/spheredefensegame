@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <languages>
+        <language id="1" name="english" />
+        <language id="2" name="russian" />
+    </languages>
+    <assets>
+	    <textures root_path="textures/screens/start/">
+	        <texture id="1" file_name="bg_main.png" />
+	        <texture id="101" file_name="lbl_map_1.png" level="1" />
+	        <texture id="102" file_name="lbl_map_2.png" level="2" />
+	        <texture id="103" file_name="lbl_map_3.png" level="3" />
+	        <texture id="104" file_name="lbl_map_4.png" level="4" />
+	        <texture id="105" file_name="lbl_map_5.png" level="5" />
+	        <texture id="106" file_name="lbl_map_6.png" level="6" />
+	        <texture id="107" file_name="lbl_map_7.png" level="7" />
+	        <texture id="108" file_name="lbl_map_8.png" level="8" />
+	        <texture id="109" file_name="lbl_map_9.png" level="9" />
+	        <texture id="110" file_name="lbl_map_10.png" level="10" />
+	        <texture id="111" file_name="lbl_map_11.png" level="11" />
+	        <texture id="112" file_name="lbl_map_12.png" level="12" />
+	        <texture id="113" file_name="lbl_level_stars_1.png" />
+	        <texture id="114" file_name="lbl_level_stars_2.png" />
+	        <texture id="115" file_name="lbl_level_stars_3.png" />
+	        <texture id="116" file_name="lbl_stars.png" />
+	        <texture id="501" file_name="btn_back.png" />
+	        <texture id="502" file_name="btn_upgrades.png" />
+	        <texture id="503" file_name="btn_level.png" />
+	    </textures>    
+		<fonts root_path="fonts/">
+		    <font id="1" file_name="exo_2_0_bold.fnt" />
+		</fonts>
+		<music root_path="music/">
+		    <track file_name="main_theme.mp3" />
+		</music>
+		<sounds root_path="sounds/">
+		    <sound file_name="btn_touch.mp3" />
+		</sounds>
+	</assets>
+	<panels>
+    	<labels>
+	        <label name="bg_main">
+	            <rectangle x="-27" y="-60" width="854" height="600" />
+	            <texture id="1" />
+	        </label>
+	        <label name="lbl_map">
+	            <rectangle x="12" y="8" width="776" height="384" />
+	            <texture id="101" level="1" />
+	            <texture id="102" level="2" />
+	            <texture id="103" level="3" />
+	            <texture id="104" level="4" />
+	            <texture id="105" level="5" />
+	            <texture id="106" level="6" />
+	            <texture id="107" level="7" />
+	            <texture id="108" level="8" />
+	            <texture id="109" level="9" />
+	            <texture id="110" level="10" />
+	            <texture id="111" level="11" />
+	            <texture id="112" level="12" />
+	        </label>
+	        <label name="lbl_level_stars_1" parent_name="btn_level_1" visible="false">
+	            <rectangle x="12" y="-18" width="64" height="24" />
+	            <texture id="113" />
+	        </label>
+	        <label name="lbl_level_stars_2" parent_name="btn_level_2" visible="false">
+	            <rectangle x="12" y="-18" width="64" height="24" />
+	            <texture id="113" />
+	        </label>
+	        <label name="lbl_level_stars_3" parent_name="btn_level_3" visible="false">
+	            <rectangle x="12" y="-18" width="64" height="24" />
+	            <texture id="113" />
+	        </label>
+	        <label name="lbl_level_stars_4" parent_name="btn_level_4" visible="false">
+	            <rectangle x="12" y="-18" width="64" height="24" />
+	            <texture id="113" />
+	        </label>
+	        <label name="lbl_level_stars_5" parent_name="btn_level_5" visible="false">
+	            <rectangle x="12" y="-18" width="64" height="24" />
+	            <texture id="113" />
+	        </label>
+	        <label name="lbl_level_stars_6" parent_name="btn_level_6" visible="false">
+	            <rectangle x="12" y="-18" width="64" height="24" />
+	            <texture id="113" />
+	        </label>
+	        <label name="lbl_level_stars_7" parent_name="btn_level_7" visible="false">
+	            <rectangle x="12" y="-18" width="64" height="24" />
+	            <texture id="113" />
+	        </label>
+	        <label name="lbl_level_stars_8" parent_name="btn_level_8" visible="false">
+	            <rectangle x="12" y="-18" width="64" height="24" />
+	            <texture id="113" />
+	        </label>
+	        <label name="lbl_level_stars_9" parent_name="btn_level_9" visible="false">
+	            <rectangle x="12" y="-18" width="64" height="24" />
+	            <texture id="113" />
+	        </label>
+	        <label name="lbl_level_stars_10" parent_name="btn_level_10" visible="false">
+	            <rectangle x="12" y="-18" width="64" height="24" />
+	            <texture id="113" />
+	        </label>
+	        <label name="lbl_level_stars_11" parent_name="btn_level_11" visible="false">
+	            <rectangle x="12" y="-18" width="64" height="24" />
+	            <texture id="113" />
+	        </label>
+	        <label name="lbl_level_stars_12" parent_name="btn_level_12" visible="false">
+	            <rectangle x="12" y="-18" width="64" height="24" />
+	            <texture id="113" />
+	        </label>
+	        <label name="lbl_stars">
+	            <rectangle x="628" y="404" width="160" height="64" />
+	            <texture id="116" />
+	        </label>
+	    </labels>
+	    <text_fields>
+	        <text_field name="txt_stars" parent_name="lbl_stars">
+	            <rectangle x="55" y="22" width="0" height="0" />
+	            <text>0</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.6" />
+	        </text_field>
+	        <text_field name="txt_separator" parent_name="lbl_stars">
+	            <rectangle x="92.5" y="22" width="0" height="0" />
+	            <text>/</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.6" />
+	        </text_field>
+	        <text_field name="txt_stars_total" parent_name="lbl_stars">
+	            <rectangle x="110" y="22" width="0" height="0" />
+	            <text>0</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.6" />
+	        </text_field>
+	    </text_fields>
+		<buttons>
+		    <button name="btn_back">
+		        <rectangle x="12" y="404" width="64" height="64" />
+		       	<texture id="501" />
+		    </button>
+		    <button name="btn_upgrades">
+		        <rectangle x="368" y="404" width="64" height="64" />
+		       	<texture id="502" />
+		    </button>
+		    <button name="btn_level_1" parent_name="lbl_map">
+		        <rectangle x="38" y="109" width="64" height="40" />
+		       	<texture id="503" />
+		    </button>
+		    <button name="btn_level_2" parent_name="lbl_map">
+		        <rectangle x="81" y="200" width="64" height="40" />
+		       	<texture id="503" />
+		    </button>
+		    <button name="btn_level_3" parent_name="lbl_map">
+		        <rectangle x="108" y="280" width="64" height="40" />
+		       	<texture id="503" />
+		    </button>
+		    <button name="btn_level_4" parent_name="lbl_map">
+		        <rectangle x="290" y="249" width="64" height="40" />
+		       	<texture id="503" />
+		    </button>
+		    <button name="btn_level_5" parent_name="lbl_map">
+		        <rectangle x="238" y="170" width="64" height="40" />
+		       	<texture id="503" />
+		    </button>
+		    <button name="btn_level_6" parent_name="lbl_map">
+		        <rectangle x="258" y="66" width="64" height="40" />
+		       	<texture id="503" />
+		    </button>
+		    <button name="btn_level_7" parent_name="lbl_map">
+		        <rectangle x="415" y="64" width="64" height="40" />
+		       	<texture id="503" />
+		    </button>
+		    <button name="btn_level_8" parent_name="lbl_map">
+		        <rectangle x="605" y="50" width="64" height="40" />
+		       	<texture id="503" />
+		    </button>
+		    <button name="btn_level_9" parent_name="lbl_map">
+		        <rectangle x="590" y="184" width="64" height="40" />
+		       	<texture id="503" />
+		    </button>
+		    <button name="btn_level_10" parent_name="lbl_map">
+		        <rectangle x="435" y="180" width="64" height="40" />
+		       	<texture id="503" />
+		    </button>
+		    <button name="btn_level_11" parent_name="lbl_map">
+		        <rectangle x="489" y="288" width="64" height="40" />
+		       	<texture id="503" />
+		    </button>
+		    <button name="btn_level_12" parent_name="lbl_map">
+		        <rectangle x="565" y="262" width="64" height="40" />
+		       	<texture id="503" />
+		    </button>
+		</buttons>
+	</panels>
+</config>

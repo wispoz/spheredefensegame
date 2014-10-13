@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <assets>
+	    <textures root_path="textures/level_maps/">
+			<texture id="51" file_name="bg_main_11.png" />
+			<texture id="601" file_name="btn_tower_place_3.png" />
+	    </textures>
+	</assets>
+	<panels>
+        <level_map_field>
+            <labels>
+				<label name="bg_main" z_index="1001">
+		           	<rectangle x="-27" y="-60" width="854" height="600" />
+		            <texture id="51" />
+	            </label>
+	        </labels>
+			<buttons>
+			    <button name="btn_tower_place_1" parent_name="bg_main">
+			        <rectangle x="42" y="420" width="48" height="32" />
+			       	<texture id="601" />
+			    </button>
+			    <button name="btn_tower_place_2" parent_name="bg_main">
+			        <rectangle x="44" y="271" width="48" height="32" />
+			       	<texture id="601" />
+			    </button>
+			    <button name="btn_tower_place_3" parent_name="bg_main">
+			        <rectangle x="124" y="157" width="48" height="32" />
+			       	<texture id="601" />
+			    </button>
+			    <button name="btn_tower_place_4" parent_name="bg_main">
+			        <rectangle x="223" y="379" width="48" height="32" />
+			       	<texture id="601" />
+			    </button>
+			    <button name="btn_tower_place_5" parent_name="bg_main">
+			        <rectangle x="244" y="267" width="48" height="32" />
+			       	<texture id="601" />
+			    </button>
+			    <button name="btn_tower_place_6" parent_name="bg_main">
+			        <rectangle x="379" y="148" width="48" height="32" />
+			       	<texture id="601" />
+			    </button>
+			    <button name="btn_tower_place_7" parent_name="bg_main">
+			        <rectangle x="439" y="475" width="48" height="32" />
+			       	<texture id="601" />
+			    </button>
+			    <button name="btn_tower_place_8" parent_name="bg_main">
+			        <rectangle x="461" y="197" width="48" height="32" />
+			       	<texture id="601" />
+			    </button>
+			    <button name="btn_tower_place_9" parent_name="bg_main">
+			        <rectangle x="469" y="377" width="48" height="32" />
+			       	<texture id="601" />
+			    </button>
+			    <button name="btn_tower_place_10" parent_name="bg_main">
+			        <rectangle x="544" y="236" width="48" height="32" />
+			       	<texture id="601" />
+			    </button>
+			    <button name="btn_tower_place_11" parent_name="bg_main">
+			        <rectangle x="608" y="92" width="48" height="32" />
+			       	<texture id="601" />
+			    </button>
+			    <button name="btn_tower_place_12" parent_name="bg_main">
+			        <rectangle x="620" y="421" width="48" height="32" />
+			       	<texture id="601" />
+			    </button>
+			    <button name="btn_tower_place_13" parent_name="bg_main">
+			        <rectangle x="672" y="144" width="48" height="32" />
+			       	<texture id="601" />
+			    </button>
+			    <button name="btn_tower_place_14" parent_name="bg_main">
+			        <rectangle x="771" y="332" width="48" height="32" />
+			       	<texture id="601" />
+			    </button>
+			</buttons>
+        </level_map_field>
+	</panels>
+	<trails>
+	    <trail id="1">
+	        <snippet id="1" x1="461" y1="0" x2="451" y2="49" />
+	        <snippet id="2" x1="451" y1="49" x2="448" y2="74" />
+	        <snippet id="3" x1="448" y1="74" x2="456" y2="96" />
+	        <snippet id="4" x1="456" y1="96" x2="493" y2="128" />
+	        <snippet id="5" x1="493" y1="128" x2="540" y2="144" />
+	        <snippet id="6" x1="540" y1="144" x2="586" y2="160" />
+	        <snippet id="7" x1="586" y1="160" x2="606" y2="172" />
+	        <snippet id="8" x1="606" y1="172" x2="625" y2="188" />
+	        <snippet id="9" x1="625" y1="188" x2="636" y2="209" />
+	        <snippet id="10" x1="636" y1="209" x2="642" y2="233" />
+	        <snippet id="11" x1="642" y1="233" x2="647" y2="280" />
+	        <snippet id="12" x1="647" y1="280" x2="647" y2="318" />
+	        <snippet id="13" x1="647" y1="318" x2="644" y2="355" />
+	        <snippet id="14" x1="644" y1="355" x2="598" y2="348" />
+	        <snippet id="15" x1="598" y1="348" x2="472" y2="283" />
+	        <snippet id="16" x1="472" y1="283" x2="386" y2="236" />
+	        <snippet id="17" x1="386" y1="236" x2="344" y2="215" />
+	        <snippet id="18" x1="344" y1="215" x2="296" y2="202" />
+	        <snippet id="19" x1="296" y1="202" x2="270" y2="198" />
+	        <snippet id="20" x1="270" y1="198" x2="247" y2="199" />
+	        <snippet id="21" x1="247" y1="199" x2="223" y2="208" />
+	        <snippet id="22" x1="223" y1="208" x2="204" y2="220" />
+	        <snippet id="23" x1="204" y1="220" x2="170" y2="254" />
+	        <snippet id="24" x1="170" y1="254" x2="144" y2="294" />
+	        <snippet id="25" x1="144" y1="294" x2="123" y2="338" />
+	        <snippet id="26" x1="123" y1="338" x2="121" y2="364" />
+	        <snippet id="27" x1="121" y1="364" x2="128" y2="386" />
+	        <snippet id="28" x1="128" y1="386" x2="160" y2="424" />
+	        <snippet id="29" x1="160" y1="424" x2="199" y2="454" />
+	        <snippet id="30" x1="199" y1="454" x2="247" y2="464" />
+	        <snippet id="31" x1="247" y1="464" x2="296" y2="471" />
+	        <snippet id="32" x1="296" y1="471" x2="343" y2="474" />
+	        <snippet id="33" x1="343" y1="474" x2="363" y2="488" />
+	        <snippet id="34" x1="363" y1="488" x2="380" y2="504" />
+	        <snippet id="35" x1="380" y1="504" x2="395" y2="522" />
+	        <snippet id="36" x1="395" y1="522" x2="408" y2="543" />
+	        <snippet id="37" x1="408" y1="543" x2="416" y2="567" />
+	        <snippet id="38" x1="416" y1="567" x2="419" y2="600" />
+	    </trail>
+	    <trail id="2">
+	        <snippet id="1" x1="854" y1="142" x2="807" y2="151" />
+	        <snippet id="2" x1="807" y1="151" x2="782" y2="160" />
+	        <snippet id="3" x1="782" y1="160" x2="763" y2="173" />
+	        <snippet id="4" x1="763" y1="173" x2="754" y2="221" />
+	        <snippet id="5" x1="754" y1="221" x2="742" y2="268" />
+	        <snippet id="6" x1="742" y1="268" x2="723" y2="310" />
+	        <snippet id="7" x1="723" y1="310" x2="691" y2="346" />
+	        <snippet id="8" x1="691" y1="346" x2="598" y2="348" />
+	        <snippet id="9" x1="598" y1="348" x2="472" y2="283" />
+	        <snippet id="10" x1="472" y1="283" x2="386" y2="236" />
+	        <snippet id="11" x1="386" y1="236" x2="344" y2="215" />
+	        <snippet id="12" x1="344" y1="215" x2="296" y2="202" />
+	        <snippet id="13" x1="296" y1="202" x2="270" y2="198" />
+	        <snippet id="14" x1="270" y1="198" x2="247" y2="199" />
+	        <snippet id="15" x1="247" y1="199" x2="223" y2="208" />
+	        <snippet id="16" x1="223" y1="208" x2="204" y2="220" />
+	        <snippet id="17" x1="204" y1="220" x2="170" y2="254" />
+	        <snippet id="18" x1="170" y1="254" x2="144" y2="294" />
+	        <snippet id="19" x1="144" y1="294" x2="123" y2="338" />
+	        <snippet id="20" x1="123" y1="338" x2="121" y2="364" />
+	        <snippet id="21" x1="121" y1="364" x2="128" y2="386" />
+	        <snippet id="22" x1="128" y1="386" x2="160" y2="424" />
+	        <snippet id="23" x1="160" y1="424" x2="199" y2="454" />
+	        <snippet id="24" x1="199" y1="454" x2="247" y2="464" />
+	        <snippet id="25" x1="247" y1="464" x2="296" y2="471" />
+	        <snippet id="26" x1="296" y1="471" x2="343" y2="474" />
+	        <snippet id="27" x1="343" y1="474" x2="363" y2="488" />
+	        <snippet id="28" x1="363" y1="488" x2="380" y2="504" />
+	        <snippet id="29" x1="380" y1="504" x2="395" y2="522" />
+	        <snippet id="30" x1="395" y1="522" x2="408" y2="543" />
+	        <snippet id="31" x1="408" y1="543" x2="416" y2="567" />
+	        <snippet id="32" x1="416" y1="567" x2="419" y2="600" />
+	    </trail>
+	</trails>
+</config>

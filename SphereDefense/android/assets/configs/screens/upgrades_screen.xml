@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <languages>
+        <language id="1" name="english" />
+        <language id="2" name="russian" />
+    </languages>
+    <assets>
+	    <textures root_path="textures/screens/upgrades/">
+	        <texture id="1" file_name="bg_main.png" />
+	        <texture id="2" file_name="bg_help.png" />
+	        <texture id="101" file_name="lbl_title_eng.png" language_id="1" />
+	        <texture id="102" file_name="lbl_title_rus.png" language_id="2" />
+	        <texture id="105" file_name="lbl_stars.png" />
+	        <texture id="106" file_name="lbl_defendence_units.png" />
+	        <texture id="107" file_name="lbl_upgrades_low.png" />
+	        <texture id="108" file_name="lbl_upgrades_middle.png" />
+	        <texture id="109" file_name="lbl_upgrades_high.png" />
+	        <texture id="110" file_name="lbl_help_title_eng.png" language_id="1" />
+	        <texture id="111" file_name="lbl_help_title_rus.png" language_id="2" />
+	        <texture id="112" file_name="lbl_back.png" />
+	        <texture id="501" file_name="btn_cone_low.png" />
+	        <texture id="502" file_name="btn_cone_medium.png" />
+	        <texture id="503" file_name="btn_cone_high.png" />
+	        <texture id="504" file_name="btn_pyramid_low.png" />
+	        <texture id="505" file_name="btn_pyramid_medium.png" />
+	        <texture id="506" file_name="btn_pyramid_high.png" />
+	        <texture id="507" file_name="btn_cube_low.png" />
+	        <texture id="508" file_name="btn_cube_medium.png" />
+	        <texture id="509" file_name="btn_cube_high.png" />
+	        <texture id="510" file_name="btn_cylinder_low.png" />
+	        <texture id="511" file_name="btn_cylinder_medium.png" />
+	        <texture id="512" file_name="btn_cylinder_high.png" />
+	        <texture id="513" file_name="btn_energycircle_low.png" />
+	        <texture id="514" file_name="btn_energycircle_medium.png" />
+	        <texture id="515" file_name="btn_energycircle_high.png" />
+	        <texture id="516" file_name="btn_firecircle_low.png" />
+	        <texture id="517" file_name="btn_firecircle_medium.png" />
+	        <texture id="518" file_name="btn_firecircle_high.png" />
+			<texture id="519" file_name="btn_reset.png" />
+	        <texture id="520" file_name="btn_undo.png" />
+	        <texture id="521" file_name="btn_done.png" />
+	        <texture id="522" file_name="btn_help.png" />
+	        <texture id="523" file_name="btn_help_done.png" />
+	    </textures>
+		<fonts root_path="fonts/">
+		    <font id="1" file_name="exo_2_0_bold.fnt" />
+		</fonts>
+		<sounds root_path="sounds/">
+		    <sound file_name="btn_touch.mp3" />
+		</sounds>
+	 </assets>
+	<panels>
+    	<labels>
+	        <label name="bg_main">
+	            <rectangle x="-27" y="-60" width="854" height="600" />
+	            <texture id="1" />
+	        </label>
+	        <label name="bg_help" z_index="100" visible="false">
+	            <rectangle x="-27" y="-60" width="854" height="600" />
+	            <texture id="2" />
+	        </label>
+	        <label name="lbl_title">
+	            <rectangle x="200" y="10" width="400" height="80" />
+	            <texture id="101" language_id="1" />
+	            <texture id="102" language_id="2" />
+	        </label>
+	        <label name="lbl_help_title" z_index="101" visible="false">
+	            <rectangle x="200" y="10" width="400" height="80" />
+	            <texture id="110" language_id="1" />
+	            <texture id="111" language_id="2" />
+	        </label>
+	        <label name="lbl_back">
+	            <rectangle x="0" y="105" width="800" height="295" />
+	            <texture id="112" />
+	        </label>
+	        <label name="lbl_stars">
+	            <rectangle x="20" y="406" width="160" height="64" />
+	            <texture id="105" />
+	        </label>
+	        <label name="lbl_forces">
+	            <rectangle x="20" y="332" width="760" height="64" />
+	            <texture id="106" />
+	        </label>
+	        <label name="lbl_upgrades_low">
+	            <rectangle x="0" y="258" width="800" height="64" />
+	            <texture id="107" />
+	        </label>
+	        <label name="lbl_upgrades_medium">
+	            <rectangle x="0" y="184" width="800" height="64" />
+	            <texture id="108" />
+	        </label>
+	        <label name="lbl_upgrades_high">
+	            <rectangle x="0" y="110" width="800" height="64" />
+	            <texture id="109" />
+	        </label>
+	    </labels>
+	    <text_fields>
+	        <text_field name="txt_stars" parent_name="lbl_stars">
+	            <rectangle x="55" y="20" width="0" height="0" />
+	            <text>0</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.6" />
+	        </text_field>
+	        <text_field name="txt_separator" parent_name="lbl_stars">
+	            <rectangle x="90" y="20" width="0" height="0" />
+	            <text>/</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.6" />
+	        </text_field>
+	        <text_field name="txt_stars_total" parent_name="lbl_stars">
+	            <rectangle x="112.5" y="20" width="0" height="0" />
+	            <text>0</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.6" />
+	        </text_field>
+	        <text_field name="txt_range" parent_name="lbl_upgrades_high" z_index="101" visible="false">
+	            <rectangle x="20" y="0" width="0" height="0" />
+	            <text language_id="1">Firing range of the tower/super weapon</text>
+	            <text language_id="2">Дальность выстрела башни/супер оружия</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+	        <text_field name="txt_damage" parent_name="lbl_upgrades_medium" z_index="101" visible="false">
+	            <rectangle x="260" y="0" width="0" height="0" />
+	            <text language_id="1">Enemy damage from tower/super weapon bullet</text>
+	            <text language_id="2">Урон врага от пули башни/супер оружия</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+	        <text_field name="txt_time" parent_name="lbl_upgrades_low" z_index="101" visible="false">
+	            <rectangle x="200" y="96" width="0" height="0" />
+	            <text language_id="1">Cooldown weapon/tower construction</text>
+	            <text language_id="2">Время перезарядки оружия/строительства башни</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+	    </text_fields>
+		<buttons>
+		    <button name="btn_cone_low" parent_name="lbl_upgrades_low">
+		        <rectangle x="20" y="0" width="110" height="64" />
+		       	<texture id="501" />
+		    </button>
+		    <button name="btn_cone_medium" parent_name="lbl_upgrades_medium">
+		        <rectangle x="20" y="0" width="110" height="64" />
+		       	<texture id="502" />
+		    </button>
+		    <button name="btn_cone_high" parent_name="lbl_upgrades_high">
+		        <rectangle x="20" y="0" width="110" height="64" />
+		       	<texture id="503" />
+		    </button>
+		    <button name="btn_pyramid_low" parent_name="lbl_upgrades_low">
+		        <rectangle x="150" y="0" width="110" height="64" />
+		       	<texture id="504" />
+		    </button>
+		    <button name="btn_pyramid_medium" parent_name="lbl_upgrades_medium">
+		        <rectangle x="150" y="0" width="110" height="64" />
+		       	<texture id="505" />
+		    </button>
+		    <button name="btn_pyramid_high" parent_name="lbl_upgrades_high">
+		        <rectangle x="150" y="0" width="110" height="64" />
+		       	<texture id="506" />
+		    </button>
+		    <button name="btn_cube_low" parent_name="lbl_upgrades_low">
+		        <rectangle x="280" y="0" width="110" height="64" />
+		       	<texture id="507" />
+		    </button>
+		    <button name="btn_cube_medium" parent_name="lbl_upgrades_medium">
+		        <rectangle x="280" y="0" width="110" height="64" />
+		       	<texture id="508" />
+		    </button>
+		    <button name="btn_cube_high" parent_name="lbl_upgrades_high">
+		        <rectangle x="280" y="0" width="110" height="64" />
+		       	<texture id="509" />
+		    </button>
+		    <button name="btn_cylinder_low" parent_name="lbl_upgrades_low">
+		        <rectangle x="410" y="0" width="110" height="64" />
+		       	<texture id="510" />
+		    </button>
+		    <button name="btn_cylinder_medium" parent_name="lbl_upgrades_medium">
+		        <rectangle x="410" y="0" width="110" height="64" />
+		       	<texture id="511" />
+		    </button>
+		    <button name="btn_cylinder_high" parent_name="lbl_upgrades_high">
+		        <rectangle x="410" y="0" width="110" height="64" />
+		       	<texture id="512" />
+		    </button>
+		    <button name="btn_energycircle_low" parent_name="lbl_upgrades_low">
+		        <rectangle x="540" y="0" width="110" height="64" />
+		       	<texture id="513" />
+		    </button>
+		    <button name="btn_energycircle_medium" parent_name="lbl_upgrades_medium">
+		        <rectangle x="540" y="0" width="110" height="64" />
+		       	<texture id="514" />
+		    </button>
+		    <button name="btn_energycircle_high" parent_name="lbl_upgrades_high">
+		        <rectangle x="540" y="0" width="110" height="64" />
+		       	<texture id="515" />
+		    </button>
+		    <button name="btn_firecircle_low" parent_name="lbl_upgrades_low">
+		        <rectangle x="670" y="0" width="110" height="64" />
+		       	<texture id="516" />
+		    </button>
+		    <button name="btn_firecircle_medium" parent_name="lbl_upgrades_medium">
+		        <rectangle x="670" y="0" width="110" height="64" />
+		       	<texture id="517" />
+		    </button>
+		    <button name="btn_firecircle_high" parent_name="lbl_upgrades_high">
+		        <rectangle x="670" y="0" width="110" height="64" />
+		       	<texture id="518" />
+		    </button>
+		    <button name="btn_reset">
+		        <rectangle x="284" y="406" width="64" height="64" />
+		       	<texture id="519" />
+		    </button>
+		    <button name="btn_undo">
+		        <rectangle x="368" y="406" width="64" height="64" />
+		       	<texture id="520" />
+		    </button>
+		    <button name="btn_done">
+		        <rectangle x="452" y="406" width="64" height="64" />
+		       	<texture id="521" />
+		    </button>
+		    <button name="btn_help">
+		        <rectangle x="716" y="406" width="64" height="64" />
+		       	<texture id="522" />
+		    </button>
+		    <button name="btn_help_done" z_index="101" visible="false">
+		        <rectangle x="716" y="406" width="64" height="64" />
+		       	<texture id="523" />
+		    </button>
+		</buttons>
+	</panels>
+</config>

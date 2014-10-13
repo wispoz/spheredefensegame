@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <level energy="20" diamonds="350" start_time="1">
+        <waves>
+			<wave id="1" duration="25">
+                <foe id="1" name="phoenix" trail_id="1" start_time="1" />
+                <foe id="2" name="ryuk" trail_id="1" start_time="2" />
+                <foe id="3" name="pirate" trail_id="3" start_time="3" />
+                <foe id="4" name="phoenix" trail_id="3" start_time="9" />
+                <foe id="5" name="pirate" trail_id="2" start_time="10" />
+                <foe id="6" name="zemus" trail_id="2" start_time="11" />
+            </wave>
+            <wave id="2" duration="25">
+                <foe id="1" name="ryuk" trail_id="1" start_time="1" />
+                <foe id="2" name="killer" trail_id="1" start_time="2" />
+                <foe id="3" name="ryuk" trail_id="1" start_time="3" />
+                <foe id="4" name="phoenix" trail_id="1" start_time="4" />
+                <foe id="5" name="zemus" trail_id="3" start_time="10" />
+                <foe id="6" name="zemus" trail_id="3" start_time="11" />
+                <foe id="7" name="ryuk" trail_id="3" start_time="12" />
+                <foe id="8" name="killer" trail_id="2" start_time="13" />
+                <foe id="9" name="ryuk" trail_id="2" start_time="16" />
+                <foe id="10" name="pirate" trail_id="2" start_time="17" />
+                <foe id="11" name="killer" trail_id="2" start_time="18" />
+                <foe id="12" name="pirate" trail_id="2" start_time="19" />
+            </wave>
+            <wave id="3" duration="25">
+                <foe id="1" name="ryuk" trail_id="2" start_time="1" />
+                <foe id="2" name="zemus" trail_id="2" start_time="2" />
+                <foe id="3" name="pirate" trail_id="2" start_time="3" />
+                <foe id="4" name="shadow" trail_id="2" start_time="4" />
+                <foe id="5" name="ryuk" trail_id="3" start_time="10" />
+                <foe id="6" name="zemus" trail_id="3" start_time="11" />
+                <foe id="7" name="killer" trail_id="3" start_time="12" />
+                <foe id="8" name="pirate" trail_id="3" start_time="13" />
+                <foe id="9" name="ryuk" trail_id="1" start_time="16" />
+                <foe id="10" name="phoenix" trail_id="1" start_time="17" />
+                <foe id="11" name="ryuk" trail_id="1" start_time="18" />
+                <foe id="12" name="shadow" trail_id="1" start_time="19" />
+            </wave>
+            <wave id="4" duration="25">
+                <foe id="1" name="ryuk" trail_id="1" start_time="1" />
+                <foe id="2" name="shadow" trail_id="1" start_time="2" />
+                <foe id="3" name="ryuk" trail_id="1" start_time="3" />
+                <foe id="4" name="shadow" trail_id="1" start_time="4" />
+                <foe id="5" name="killer" trail_id="3" start_time="10" />
+                <foe id="6" name="phoenix" trail_id="3" start_time="11" />
+                <foe id="7" name="ryuk" trail_id="3" start_time="12" />
+                <foe id="8" name="phoenix" trail_id="3" start_time="13" />
+                <foe id="9" name="zemus" trail_id="2" start_time="16" />
+                <foe id="10" name="shadow" trail_id="2" start_time="17" />
+                <foe id="11" name="zemus" trail_id="2" start_time="18" />
+                <foe id="12" name="shadow" trail_id="2" start_time="19" />
+            </wave>
+            <wave id="5" duration="25">
+                <foe id="1" name="shadow" trail_id="2" start_time="1" />
+                <foe id="2" name="killer" trail_id="2" start_time="2" />
+                <foe id="3" name="shadow" trail_id="2" start_time="3" />
+                <foe id="4" name="zemus" trail_id="3" start_time="4" />
+                <foe id="5" name="killer" trail_id="3" start_time="10" />
+                <foe id="6" name="pirate" trail_id="3" start_time="11" />
+                <foe id="7" name="shadow" trail_id="3" start_time="12" />
+                <foe id="8" name="zemus" trail_id="1" start_time="13" />
+                <foe id="9" name="phoenix" trail_id="1" start_time="16" />
+                <foe id="10" name="shadow" trail_id="1" start_time="17" />
+            </wave>
+            <wave id="6" duration="25">
+                <foe id="1" name="ryuk" trail_id="2" start_time="1" />
+                <foe id="2" name="ryuk" trail_id="3" start_time="2" />
+                <foe id="3" name="pirate" trail_id="1" start_time="3" />
+                <foe id="4" name="ryuk" trail_id="2" start_time="4" />
+                <foe id="5" name="zemus" trail_id="1" start_time="10" />
+                <foe id="6" name="ryuk" trail_id="1" start_time="11" />
+                <foe id="7" name="zemus" trail_id="2" start_time="12" />
+                <foe id="8" name="ryuk" trail_id="3" start_time="13" />
+                <foe id="9" name="pirate" trail_id="1" start_time="16" />
+                <foe id="10" name="phoenix" trail_id="2" start_time="17" />
+                <foe id="11" name="ryuk" trail_id="1" start_time="18" />
+                <foe id="12" name="phoenix" trail_id="3" start_time="19" />
+            </wave>
+			<wave id="7" duration="25">
+                <foe id="1" name="ryuk" trail_id="1" start_time="1" />
+                <foe id="2" name="shadow" trail_id="1" start_time="2" />
+                <foe id="3" name="ryuk" trail_id="1" start_time="3" />
+                <foe id="4" name="zemus" trail_id="1" start_time="4" />
+                <foe id="5" name="pirate" trail_id="2" start_time="10" />
+                <foe id="6" name="shadow" trail_id="2" start_time="11" />
+                <foe id="7" name="zemus" trail_id="3" start_time="12" />
+                <foe id="8" name="shadow" trail_id="3" start_time="13" />
+            </wave>
+            <wave id="8" duration="30">
+                <foe id="1" name="ryuk" trail_id="1" start_time="1" />
+                <foe id="2" name="shadow" trail_id="1" start_time="2" />
+                <foe id="3" name="ryuk" trail_id="1" start_time="3" />
+                <foe id="4" name="zemus" trail_id="3" start_time="4" />
+                <foe id="5" name="ryuk" trail_id="3" start_time="6" />
+                <foe id="6" name="killer" trail_id="3" start_time="7" />
+                <foe id="7" name="ryuk" trail_id="1" start_time="8" />
+                <foe id="8" name="phoenix" trail_id="1" start_time="9" />
+                <foe id="9" name="ryuk" trail_id="2" start_time="11" />
+                <foe id="10" name="killer" trail_id="2" start_time="12" />
+                <foe id="11" name="ryuk" trail_id="2" start_time="13" />
+                <foe id="12" name="shadow" trail_id="2" start_time="14" />
+                <foe id="13" name="ryuk" trail_id="2" start_time="16" />
+                <foe id="14" name="shadow" trail_id="1" start_time="17" />
+                <foe id="15" name="ryuk" trail_id="1" start_time="18" />
+                <foe id="16" name="shadow" trail_id="2" start_time="19" />
+                <foe id="17" name="zemus" trail_id="1" start_time="20" />
+            </wave>
+            <wave id="9" duration="30">
+                <foe id="1" name="shadow" trail_id="3" start_time="1" />
+                <foe id="2" name="phoenix" trail_id="3" start_time="2" />
+                <foe id="3" name="ryuk" trail_id="23" start_time="3" />
+                <foe id="4" name="killer" trail_id="2" start_time="4" />
+                <foe id="5" name="phoenix" trail_id="2" start_time="6" />
+                <foe id="6" name="ryuk" trail_id="2" start_time="7" />
+                <foe id="7" name="shadow" trail_id="1" start_time="8" />
+                <foe id="8" name="killer" trail_id="1" start_time="9" />
+                <foe id="9" name="zemus" trail_id="1" start_time="11" />
+                <foe id="10" name="phoenix" trail_id="3" start_time="12" />
+                <foe id="11" name="shadow" trail_id="3" start_time="13" />
+                <foe id="12" name="zemus" trail_id="3" start_time="14" />
+            </wave>
+            <wave id="10" duration="30">
+                <foe id="1" name="ryuk" trail_id="1" start_time="1" />
+                <foe id="2" name="shadow" trail_id="1" start_time="2" />
+                <foe id="3" name="zemus" trail_id="1" start_time="3" />
+                <foe id="4" name="killer" trail_id="1" start_time="4" />
+                <foe id="5" name="ryuk" trail_id="3" start_time="6" />
+                <foe id="6" name="zemus" trail_id="3" start_time="7" />
+                <foe id="7" name="shadow" trail_id="3" start_time="8" />
+                <foe id="8" name="pirate" trail_id="3" start_time="9" />
+                <foe id="9" name="killer" trail_id="2" start_time="11" />
+                <foe id="10" name="shadow" trail_id="2" start_time="12" />
+                <foe id="11" name="ryuk" trail_id="2" start_time="13" />
+                <foe id="12" name="ryuk" trail_id="2" start_time="14" />
+            </wave>
+            <wave id="11" duration="30">
+                <foe id="1" name="zemus" trail_id="1" start_time="1" />
+                <foe id="2" name="shadow" trail_id="1" start_time="2" />
+                <foe id="3" name="ryuk" trail_id="1" start_time="3" />
+                <foe id="4" name="killer" trail_id="1" start_time="4" />
+                <foe id="5" name="zemus" trail_id="3" start_time="6" />
+                <foe id="6" name="phoenix" trail_id="3" start_time="7" />
+                <foe id="7" name="shadow" trail_id="3" start_time="8" />
+                <foe id="8" name="ryuk" trail_id="3" start_time="9" />
+                <foe id="9" name="killer" trail_id="2" start_time="11" />
+                <foe id="10" name="shadow" trail_id="2" start_time="12" />
+                <foe id="11" name="phoenix" trail_id="2" start_time="13" />
+                <foe id="12" name="ryuk" trail_id="2" start_time="14" />
+            </wave>
+            <wave id="12" duration="30">
+                <foe id="1" name="ryuk" trail_id="1" start_time="1" />
+                <foe id="2" name="shadow" trail_id="1" start_time="2" />
+                <foe id="3" name="zemus" trail_id="1" start_time="3" />
+                <foe id="4" name="phoenix" trail_id="1" start_time="4" />
+                <foe id="5" name="ryuk" trail_id="3" start_time="6" />
+                <foe id="6" name="killer" trail_id="3" start_time="7" />
+                <foe id="7" name="phoenix" trail_id="3" start_time="8" />
+                <foe id="8" name="ryuk" trail_id="3" start_time="9" />
+                <foe id="9" name="zemus" trail_id="2" start_time="11" />
+                <foe id="10" name="shadow" trail_id="2" start_time="12" />
+                <foe id="11" name="killer" trail_id="2" start_time="13" />
+                <foe id="12" name="pirate" trail_id="2" start_time="14" />
+            </wave>
+            <wave id="13" duration="30">
+                <foe id="1" name="ryuk" trail_id="1" start_time="1" />
+                <foe id="2" name="killer" trail_id="1" start_time="2" />
+                <foe id="3" name="ryuk" trail_id="1" start_time="3" />
+                <foe id="4" name="shadow" trail_id="1" start_time="4" />
+                <foe id="5" name="zemus" trail_id="3" start_time="6" />
+                <foe id="6" name="pirate" trail_id="3" start_time="7" />
+                <foe id="7" name="shadow" trail_id="3" start_time="8" />
+                <foe id="8" name="zemus" trail_id="3" start_time="9" />
+                <foe id="9" name="phoenix" trail_id="2" start_time="11" />
+                <foe id="10" name="killer" trail_id="2" start_time="12" />
+                <foe id="11" name="ryuk" trail_id="2" start_time="13" />
+                <foe id="12" name="phoenix" trail_id="2" start_time="14" />
+            </wave>
+            <wave id="14" duration="30">
+                <foe id="1" name="ryuk" trail_id="3" start_time="1" />
+                <foe id="2" name="shadow" trail_id="3" start_time="2" />
+                <foe id="3" name="zemus" trail_id="3" start_time="3" />
+                <foe id="4" name="killer" trail_id="3" start_time="4" />
+                <foe id="5" name="zemus" trail_id="1" start_time="6" />
+                <foe id="6" name="pirate" trail_id="1" start_time="7" />
+                <foe id="7" name="phoenix" trail_id="2" start_time="8" />
+                <foe id="8" name="ryuk" trail_id="2" start_time="9" />
+                <foe id="9" name="pirate" trail_id="2" start_time="11" />
+                <foe id="10" name="phoenix" trail_id="2" start_time="12" />
+                <foe id="11" name="killer" trail_id="2" start_time="13" />
+                <foe id="12" name="pirate" trail_id="2" start_time="14" />
+            </wave>
+            <wave id="15" duration="30">
+                <foe id="1" name="ryuk" trail_id="1" start_time="1" />
+                <foe id="2" name="shadow" trail_id="1" start_time="2" />
+                <foe id="3" name="ryuk" trail_id="1" start_time="3" />
+                <foe id="4" name="killer" trail_id="1" start_time="4" />
+                <foe id="5" name="zemus" trail_id="1" start_time="6" />
+                <foe id="6" name="pirate" trail_id="1" start_time="7" />
+                <foe id="7" name="phoenix" trail_id="2" start_time="8" />
+                <foe id="8" name="zemus" trail_id="2" start_time="9" />
+                <foe id="9" name="pirate" trail_id="2" start_time="11" />
+                <foe id="10" name="phoenix" trail_id="3" start_time="12" />
+                <foe id="11" name="killer" trail_id="3" start_time="13" />
+                <foe id="12" name="pirate" trail_id="3" start_time="14" />
+            </wave>
+            <wave id="16" duration="30">
+                <foe id="1" name="ryuk" trail_id="1" start_time="1" />
+                <foe id="2" name="shadow" trail_id="1" start_time="2" />
+                <foe id="3" name="ryuk" trail_id="1" start_time="3" />
+                <foe id="4" name="killer" trail_id="1" start_time="4" />
+                <foe id="5" name="zemus" trail_id="3" start_time="6" />
+                <foe id="6" name="pirate" trail_id="3" start_time="7" />
+                <foe id="7" name="phoenix" trail_id="3" start_time="8" />
+                <foe id="8" name="zemus" trail_id="3" start_time="9" />
+                <foe id="9" name="pirate" trail_id="2" start_time="11" />
+                <foe id="10" name="phoenix" trail_id="2" start_time="12" />
+                <foe id="11" name="killer" trail_id="2" start_time="13" />
+                <foe id="12" name="pirate" trail_id="2" start_time="14" />
+            </wave>
+            <wave id="17" duration="30">
+                <foe id="1" name="ryuk" trail_id="1" start_time="1" />
+                <foe id="2" name="shadow" trail_id="1" start_time="2" />
+                <foe id="3" name="ryuk" trail_id="1" start_time="3" />
+                <foe id="4" name="killer" trail_id="1" start_time="4" />
+                <foe id="5" name="zemus" trail_id="3" start_time="6" />
+                <foe id="6" name="pirate" trail_id="3" start_time="7" />
+                <foe id="7" name="phoenix" trail_id="3" start_time="8" />
+                <foe id="8" name="zemus" trail_id="3" start_time="9" />
+                <foe id="9" name="pirate" trail_id="2" start_time="11" />
+                <foe id="10" name="phoenix" trail_id="2" start_time="12" />
+                <foe id="11" name="killer" trail_id="2" start_time="13" />
+                <foe id="12" name="pirate" trail_id="2" start_time="14" />
+            </wave>
+            <wave id="18" duration="30">
+                <foe id="1" name="zemus" trail_id="1" start_time="1" />
+                <foe id="2" name="shadow" trail_id="1" start_time="2" />
+                <foe id="3" name="ryuk" trail_id="1" start_time="3" />
+                <foe id="4" name="killer" trail_id="3" start_time="4" />
+                <foe id="5" name="ryuk" trail_id="3" start_time="6" />
+                <foe id="6" name="pirate" trail_id="3" start_time="7" />
+                <foe id="7" name="phoenix" trail_id="3" start_time="8" />
+                <foe id="8" name="zemus" trail_id="2" start_time="9" />
+                <foe id="9" name="pirate" trail_id="2" start_time="11" />
+                <foe id="10" name="phoenix" trail_id="2" start_time="12" />
+                <foe id="11" name="killer" trail_id="2" start_time="13" />
+                <foe id="12" name="pirate" trail_id="2" start_time="14" />
+            </wave>
+            <wave id="19" duration="60">
+                <foe id="1" name="bahamut" trail_id="3" start_time="1" />
+            </wave>
+        </waves>
+    </level>
+</config>

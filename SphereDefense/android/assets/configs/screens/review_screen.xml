@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <languages>
+        <language id="1" name="english" />
+        <language id="2" name="russian" />
+    </languages>
+    <assets>
+	    <textures root_path="textures/screens/review/">
+	        <texture id="1" file_name="bg_main.png" />
+	        <texture id="101" file_name="lbl_level_1_eng.png" level="1" language_id="1" />
+	        <texture id="102" file_name="lbl_level_2_eng.png" level="2" language_id="1" />
+	        <texture id="103" file_name="lbl_level_3_eng.png" level="3" language_id="1" />
+	        <texture id="104" file_name="lbl_level_4_eng.png" level="4" language_id="1" />
+	        <texture id="105" file_name="lbl_level_5_eng.png" level="5" language_id="1" />
+	        <texture id="106" file_name="lbl_level_6_eng.png" level="6" language_id="1" />
+	        <texture id="107" file_name="lbl_level_7_eng.png" level="7" language_id="1" />
+	        <texture id="108" file_name="lbl_level_8_eng.png" level="8" language_id="1" />
+	        <texture id="109" file_name="lbl_level_9_eng.png" level="9" language_id="1" />
+	        <texture id="110" file_name="lbl_level_10_eng.png" level="10" language_id="1" />
+	        <texture id="111" file_name="lbl_level_11_eng.png" level="11" language_id="1" />
+	        <texture id="112" file_name="lbl_level_12_eng.png" level="12" language_id="1" />
+	        <texture id="113" file_name="lbl_level_1_rus.png" level="1" language_id="2" />
+	        <texture id="114" file_name="lbl_level_2_rus.png" level="2" language_id="2" />
+	        <texture id="115" file_name="lbl_level_3_rus.png" level="3" language_id="2" />
+	        <texture id="116" file_name="lbl_level_4_rus.png" level="4" language_id="2" />
+	        <texture id="117" file_name="lbl_level_5_rus.png" level="5" language_id="2" />
+	        <texture id="118" file_name="lbl_level_6_rus.png" level="6" language_id="2" />
+	        <texture id="119" file_name="lbl_level_7_rus.png" level="7" language_id="2" />
+	        <texture id="120" file_name="lbl_level_8_rus.png" level="8" language_id="2" />
+	        <texture id="121" file_name="lbl_level_9_rus.png" level="9" language_id="2" />
+	        <texture id="122" file_name="lbl_level_10_rus.png" level="10" language_id="2" />
+	        <texture id="123" file_name="lbl_level_11_rus.png" level="11" language_id="2" />
+	        <texture id="124" file_name="lbl_level_12_rus.png" level="12" language_id="2" />
+	        <texture id="125" file_name="lbl_level_1.png" level="1" />
+	        <texture id="126" file_name="lbl_level_2.png" level="2" />
+	        <texture id="127" file_name="lbl_level_3.png" level="3" />
+	        <texture id="128" file_name="lbl_level_4.png" level="4" />
+	        <texture id="129" file_name="lbl_level_5.png" level="5" />
+	        <texture id="130" file_name="lbl_level_6.png" level="6" />
+	        <texture id="131" file_name="lbl_level_7.png" level="7" />
+	        <texture id="132" file_name="lbl_level_8.png" level="8" />
+	        <texture id="133" file_name="lbl_level_9.png" level="9" />
+	        <texture id="134" file_name="lbl_level_10.png" level="10" />
+	        <texture id="135" file_name="lbl_level_11.png" level="11" />
+	        <texture id="136" file_name="lbl_level_12.png" level="12" />
+	        <texture id="501" file_name="btn_back.png" />
+	        <texture id="502" file_name="btn_start.png" />
+	    </textures>
+		<music root_path="music/">
+		    <track file_name="main_theme.mp3" />
+		</music>
+		<sounds root_path="sounds/">
+		    <sound file_name="btn_touch.mp3" />
+		</sounds>
+	</assets>
+	<panels>
+    	<labels>
+	        <label name="bg_main" z_index="1">
+	            <rectangle x="-27" y="-60" width="854" height="600" />
+	            <texture id="1" />
+	        </label>
+	       	<label name="lbl_title" z_index="100">
+	            <rectangle x="200" y="0" width="400" height="80" />
+	            <texture id="101" level="1" language_id="1" />
+	            <texture id="102" level="2" language_id="1" />
+	            <texture id="103" level="3" language_id="1" />
+	            <texture id="104" level="4" language_id="1" />
+	            <texture id="105" level="5" language_id="1" />
+	            <texture id="106" level="6" language_id="1" />
+	            <texture id="107" level="7" language_id="1" />
+	            <texture id="108" level="8" language_id="1" />
+	            <texture id="109" level="9" language_id="1" />
+	            <texture id="110" level="10" language_id="1" />
+	            <texture id="111" level="11" language_id="1" />
+	            <texture id="112" level="12" language_id="1" />
+	            <texture id="113" level="1" language_id="2" />
+	            <texture id="114" level="2" language_id="2" />
+	            <texture id="115" level="3" language_id="2" />
+	            <texture id="116" level="4" language_id="2" />
+	            <texture id="117" level="5" language_id="2" />
+	            <texture id="118" level="6" language_id="2" />
+	            <texture id="119" level="7" language_id="2" />
+	            <texture id="120" level="8" language_id="2" />
+	            <texture id="121" level="9" language_id="2" />
+	            <texture id="122" level="10" language_id="2" />
+	            <texture id="123" level="11" language_id="2" />
+	            <texture id="124" level="12" language_id="2" />
+	        </label>
+	       	<label name="lbl_level" z_index="100">
+	            <rectangle x="173" y="80" width="455" height="320" />
+	            <texture id="125" level="1" />
+	            <texture id="126" level="2" />
+	            <texture id="127" level="3" />
+	            <texture id="128" level="4" />
+	            <texture id="129" level="5" />
+	            <texture id="130" level="6" />
+	            <texture id="131" level="7" />
+	            <texture id="132" level="8" />
+	            <texture id="133" level="9" />
+	            <texture id="134" level="10" />
+	            <texture id="135" level="11" />
+	            <texture id="136" level="12" />
+	        </label>
+	    </labels>
+		<buttons>
+			<button name="btn_back" z_index="2">
+		        <rectangle x="12" y="372" width="96" height="96" />
+		        <texture id="501" frames_count="3" />
+		    </button>
+		    <button name="btn_start" z_index="2">
+		        <rectangle x="692" y="372" width="96" height="96" />
+		        <texture id="502" frames_count="3" />
+		    </button>
+		</buttons>
+	</panels>
+</config>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <level energy="20" diamonds="250" start_time="1">
+        <waves>
+			<wave id="1" duration="25">
+                <foe id="1" name="black_mage" trail_id="1" start_time="1" />
+                <foe id="2" name="black_mage" trail_id="1" start_time="2" />
+                <foe id="3" name="black_mage" trail_id="1" start_time="3" />
+                <foe id="4" name="black_mage" trail_id="2" start_time="9" />
+                <foe id="5" name="black_mage" trail_id="2" start_time="10" />
+                <foe id="6" name="black_mage" trail_id="2" start_time="11" />
+            </wave>
+            <wave id="2" duration="25">
+                <foe id="1" name="black_mage" trail_id="1" start_time="1" />
+                <foe id="2" name="black_mage" trail_id="1" start_time="2" />
+                <foe id="3" name="black_mage" trail_id="1" start_time="3" />
+                <foe id="4" name="black_mage" trail_id="1" start_time="4" />
+                <foe id="5" name="black_mage" trail_id="1" start_time="10" />
+                <foe id="6" name="black_mage" trail_id="1" start_time="11" />
+                <foe id="7" name="black_mage" trail_id="2" start_time="12" />
+                <foe id="8" name="black_mage" trail_id="2" start_time="13" />
+                <foe id="9" name="black_mage" trail_id="2" start_time="16" />
+                <foe id="10" name="black_mage" trail_id="2" start_time="17" />
+                <foe id="11" name="black_mage" trail_id="2" start_time="18" />
+                <foe id="12" name="black_mage" trail_id="2" start_time="19" />
+            </wave>
+            <wave id="3" duration="25">
+                <foe id="1" name="black_mage" trail_id="2" start_time="1" />
+                <foe id="2" name="black_mage" trail_id="2" start_time="2" />
+                <foe id="3" name="black_mage" trail_id="2" start_time="3" />
+                <foe id="4" name="brux" trail_id="2" start_time="4" />
+                <foe id="5" name="black_mage" trail_id="2" start_time="10" />
+                <foe id="6" name="black_mage" trail_id="2" start_time="11" />
+                <foe id="7" name="brux" trail_id="1" start_time="12" />
+                <foe id="8" name="black_mage" trail_id="1" start_time="13" />
+                <foe id="9" name="black_mage" trail_id="1" start_time="16" />
+                <foe id="10" name="black_mage" trail_id="1" start_time="17" />
+                <foe id="11" name="black_mage" trail_id="1" start_time="18" />
+                <foe id="12" name="brux" trail_id="1" start_time="19" />
+            </wave>
+            <wave id="4" duration="25">
+                <foe id="1" name="black_mage" trail_id="1" start_time="1" />
+                <foe id="2" name="brux" trail_id="1" start_time="2" />
+                <foe id="3" name="black_mage" trail_id="1" start_time="3" />
+                <foe id="4" name="brux" trail_id="1" start_time="4" />
+                <foe id="5" name="black_mage" trail_id="1" start_time="10" />
+                <foe id="6" name="brux" trail_id="1" start_time="11" />
+                <foe id="7" name="black_mage" trail_id="2" start_time="12" />
+                <foe id="8" name="brux" trail_id="2" start_time="13" />
+                <foe id="9" name="black_mage" trail_id="2" start_time="16" />
+                <foe id="10" name="brux" trail_id="2" start_time="17" />
+                <foe id="11" name="black_mage" trail_id="2" start_time="18" />
+                <foe id="12" name="brux" trail_id="2" start_time="19" />
+            </wave>
+            <wave id="5" duration="25">
+                <foe id="1" name="brux" trail_id="2" start_time="1" />
+                <foe id="2" name="brux" trail_id="2" start_time="2" />
+                <foe id="3" name="brux" trail_id="2" start_time="3" />
+                <foe id="4" name="brux" trail_id="2" start_time="4" />
+                <foe id="5" name="brux" trail_id="2" start_time="10" />
+                <foe id="6" name="brux" trail_id="1" start_time="11" />
+                <foe id="7" name="brux" trail_id="1" start_time="12" />
+                <foe id="8" name="brux" trail_id="1" start_time="13" />
+                <foe id="9" name="brux" trail_id="1" start_time="16" />
+                <foe id="10" name="brux" trail_id="1" start_time="17" />
+            </wave>
+            <wave id="6" duration="25">
+                <foe id="1" name="black_mage" trail_id="2" start_time="1" />
+                <foe id="2" name="black_mage" trail_id="1" start_time="2" />
+                <foe id="3" name="black_mage" trail_id="1" start_time="3" />
+                <foe id="4" name="black_mage" trail_id="2" start_time="4" />
+                <foe id="5" name="black_mage" trail_id="1" start_time="10" />
+                <foe id="6" name="black_mage" trail_id="1" start_time="11" />
+                <foe id="7" name="black_mage" trail_id="2" start_time="12" />
+                <foe id="8" name="black_mage" trail_id="1" start_time="13" />
+                <foe id="9" name="black_mage" trail_id="1" start_time="16" />
+                <foe id="10" name="black_mage" trail_id="2" start_time="17" />
+                <foe id="11" name="black_mage" trail_id="1" start_time="18" />
+                <foe id="12" name="black_mage" trail_id="1" start_time="19" />
+            </wave>
+			<wave id="7" duration="25">
+                <foe id="1" name="black_mage" trail_id="1" start_time="1" />
+                <foe id="2" name="brux" trail_id="1" start_time="2" />
+                <foe id="3" name="black_mage" trail_id="1" start_time="3" />
+                <foe id="4" name="brux" trail_id="1" start_time="4" />
+                <foe id="5" name="black_mage" trail_id="2" start_time="10" />
+                <foe id="6" name="brux" trail_id="2" start_time="11" />
+                <foe id="7" name="black_mage" trail_id="2" start_time="12" />
+                <foe id="8" name="brux" trail_id="2" start_time="13" />
+            </wave>
+            <wave id="8" duration="30">
+                <foe id="1" name="black_mage" trail_id="1" start_time="1" />
+                <foe id="2" name="brux" trail_id="1" start_time="2" />
+                <foe id="3" name="black_mage" trail_id="1" start_time="3" />
+                <foe id="4" name="brux" trail_id="1" start_time="4" />
+                <foe id="5" name="black_mage" trail_id="1" start_time="6" />
+                <foe id="6" name="brux" trail_id="1" start_time="7" />
+                <foe id="7" name="black_mage" trail_id="1" start_time="8" />
+                <foe id="8" name="brux" trail_id="1" start_time="9" />
+                <foe id="9" name="black_mage" trail_id="2" start_time="11" />
+                <foe id="10" name="brux" trail_id="2" start_time="12" />
+                <foe id="11" name="black_mage" trail_id="2" start_time="13" />
+                <foe id="12" name="brux" trail_id="2" start_time="14" />
+                <foe id="13" name="black_mage" trail_id="2" start_time="16" />
+                <foe id="14" name="brux" trail_id="1" start_time="17" />
+                <foe id="15" name="black_mage" trail_id="1" start_time="18" />
+                <foe id="16" name="brux" trail_id="2" start_time="19" />
+                <foe id="17" name="brux" trail_id="1" start_time="20" />
+            </wave>
+            <wave id="9" duration="30">
+                <foe id="1" name="brux" trail_id="2" start_time="1" />
+                <foe id="2" name="brux" trail_id="2" start_time="2" />
+                <foe id="3" name="black_mage" trail_id="2" start_time="3" />
+                <foe id="4" name="brux" trail_id="2" start_time="4" />
+                <foe id="5" name="brux" trail_id="2" start_time="6" />
+                <foe id="6" name="black_mage" trail_id="2" start_time="7" />
+                <foe id="7" name="brux" trail_id="1" start_time="8" />
+                <foe id="8" name="brux" trail_id="1" start_time="9" />
+                <foe id="9" name="black_mage" trail_id="1" start_time="11" />
+                <foe id="10" name="brux" trail_id="1" start_time="12" />
+                <foe id="11" name="brux" trail_id="1" start_time="13" />
+                <foe id="12" name="black_mage" trail_id="1" start_time="14" />
+            </wave>
+            <wave id="10" duration="30">
+                <foe id="1" name="black_mage" trail_id="1" start_time="1" />
+                <foe id="2" name="brux" trail_id="1" start_time="2" />
+                <foe id="3" name="black_mage" trail_id="1" start_time="3" />
+                <foe id="4" name="brux" trail_id="1" start_time="4" />
+                <foe id="5" name="black_mage" trail_id="1" start_time="6" />
+                <foe id="6" name="black_mage" trail_id="1" start_time="7" />
+                <foe id="7" name="brux" trail_id="2" start_time="8" />
+                <foe id="8" name="black_mage" trail_id="2" start_time="9" />
+                <foe id="9" name="black_mage" trail_id="2" start_time="11" />
+                <foe id="10" name="brux" trail_id="2" start_time="12" />
+                <foe id="11" name="black_mage" trail_id="2" start_time="13" />
+                <foe id="12" name="black_mage" trail_id="2" start_time="14" />
+            </wave>
+        </waves>
+    </level>
+</config>

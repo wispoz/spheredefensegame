@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <assets>
+	    <textures root_path="textures/level_maps/">
+			<texture id="51" file_name="bg_main_2.png" />
+			<texture id="601" file_name="btn_tower_place_1.png" />
+	    </textures>
+	</assets>
+	<panels>
+        <level_map_field>
+            <labels>
+				<label name="bg_main" z_index="1001">
+		           	<rectangle x="-27" y="-60" width="854" height="600" />
+		            <texture id="51" />
+	            </label>
+	        </labels>
+			<buttons>
+			    <button name="btn_tower_place_1" parent_name="bg_main">
+			        <rectangle x="163" y="235" width="48" height="32" />
+			       	<texture id="601" />
+			    </button>
+			    <button name="btn_tower_place_2" parent_name="bg_main">
+			        <rectangle x="208" y="404" width="48" height="32" />
+			       	<texture id="601" />
+			    </button>
+			    <button name="btn_tower_place_3" parent_name="bg_main">
+			        <rectangle x="292" y="262" width="48" height="32" />
+			       	<texture id="601" />
+			    </button>
+			    <button name="btn_tower_place_4" parent_name="bg_main">
+			        <rectangle x="435" y="380" width="48" height="32" />
+			       	<texture id="601" />
+			    </button>
+			    <button name="btn_tower_place_5" parent_name="bg_main">
+			        <rectangle x="486" y="199" width="48" height="32" />
+			       	<texture id="601" />
+			    </button>
+			    <button name="btn_tower_place_6" parent_name="bg_main">
+			        <rectangle x="674" y="171" width="48" height="32" />
+			       	<texture id="601" />
+			    </button>
+			    <button name="btn_tower_place_7" parent_name="bg_main">
+			        <rectangle x="679" y="348" width="48" height="32" />
+			       	<texture id="601" />
+			    </button>
+			</buttons>
+        </level_map_field>
+	</panels>
+	<trails>
+	    <trail id="1">
+	        <snippet id="1" x1="674" y1="0" x2="677" y2="56" />
+	        <snippet id="2" x1="677" y1="56" x2="678" y2="82" />
+	        <snippet id="3" x1="678" y1="82" x2="665" y2="102" />
+	        <snippet id="4" x1="665" y1="102" x2="641" y2="113" />
+	        <snippet id="5" x1="641" y1="113" x2="531" y2="128" />
+	        <snippet id="6" x1="531" y1="128" x2="202" y2="161" />
+	        <snippet id="7" x1="202" y1="161" x2="150" y2="172" />
+	        <snippet id="8" x1="150" y1="172" x2="126" y2="185" />
+	        <snippet id="9" x1="126" y1="185" x2="106" y2="204" />
+	        <snippet id="10" x1="106" y1="204" x2="101" y2="228" />
+	        <snippet id="11" x1="101" y1="228" x2="102" y2="275" />
+	        <snippet id="12" x1="102" y1="275" x2="122" y2="296" />
+	        <snippet id="13" x1="122" y1="296" x2="183" y2="325" />
+	        <snippet id="14" x1="183" y1="325" x2="244" y2="338" />
+	        <snippet id="15" x1="244" y1="338" x2="294" y2="342" />
+	        <snippet id="16" x1="294" y1="342" x2="344" y2="338" />
+	        <snippet id="17" x1="344" y1="338" x2="384" y2="330" />
+	        <snippet id="18" x1="384" y1="330" x2="450" y2="306" />
+	        <snippet id="19" x1="450" y1="306" x2="633" y2="250" />
+	        <snippet id="20" x1="633" y1="250" x2="682" y2="247" />
+	        <snippet id="21" x1="682" y1="247" x2="710" y2="250" />
+	        <snippet id="22" x1="710" y1="250" x2="735" y2="262" />
+	        <snippet id="23" x1="735" y1="262" x2="754" y2="282" />
+	        <snippet id="24" x1="754" y1="282" x2="764" y2="303" />
+	        <snippet id="25" x1="764" y1="303" x2="770" y2="350" />
+	        <snippet id="26" x1="770" y1="350" x2="769" y2="398" />
+	        <snippet id="27" x1="769" y1="398" x2="756" y2="424" />
+	        <snippet id="28" x1="756" y1="424" x2="733" y2="440" />
+	        <snippet id="29" x1="733" y1="440" x2="708" y2="450" />
+	        <snippet id="30" x1="708" y1="450" x2="548" y2="458" />
+	        <snippet id="31" x1="548" y1="458" x2="460" y2="464" />
+	        <snippet id="32" x1="460" y1="464" x2="338" y2="468" />
+	        <snippet id="33" x1="338" y1="468" x2="308" y2="466" />
+	        <snippet id="34" x1="308" y1="466" x2="283" y2="474" />
+	        <snippet id="35" x1="283" y1="474" x2="268" y2="495" />
+	        <snippet id="36" x1="268" y1="495" x2="215" y2="600" />
+	    </trail>
+	</trails>
+</config>

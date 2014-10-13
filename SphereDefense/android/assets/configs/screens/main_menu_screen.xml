@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <languages>
+        <language id="1" name="english" />
+        <language id="2" name="russian" />
+    </languages>
+    <assets>
+	    <textures root_path="textures/screens/main_menu/">
+	        <texture id="1" file_name="bg_main.png" />
+	        <texture id="2" file_name="bg_question.png" />
+	        <texture id="101" file_name="lbl_title_eng.png" language_id="1" />
+	        <texture id="102" file_name="lbl_title_rus.png" language_id="2" />
+	        <texture id="103" file_name="lbl_question_eng.png" language_id="1" />
+	        <texture id="104" file_name="lbl_question_rus.png" language_id="2" />
+	        <texture id="501" file_name="btn_new.png" />
+	        <texture id="502" file_name="btn_load.png" />
+	        <texture id="503" file_name="btn_encyclopedia.png" />
+	        <texture id="504" file_name="btn_options.png" />
+	        <texture id="505" file_name="btn_about.png" />
+	        <texture id="506" file_name="btn_yes.png" />
+	        <texture id="507" file_name="btn_no.png" />
+	    </textures>
+		<music root_path="music/">
+		    <track file_name="main_theme.mp3" />
+		</music>
+		<sounds root_path="sounds/">
+		    <sound file_name="btn_touch.mp3" />
+		</sounds>
+	</assets>
+	<panels>
+    	<labels>
+	        <label name="bg_main" z_index="1">
+	            <rectangle x="-27" y="-60" width="854" height="600" />
+	            <texture id="1" />
+	        </label>
+	       	<label name="bg_question" z_index="2" visible="false">
+	            <rectangle x="-27" y="-60" width="854" height="600" />
+	            <texture id="2" />
+	        </label>
+	        <label name="lbl_title" z_index="1">
+	            <rectangle x="0" y="42" width="800" height="96" />
+	            <texture id="101" language_id="1" />
+	            <texture id="102" language_id="2" />
+	        </label>
+	        <label name="lbl_question" z_index="2" visible="false">
+	            <rectangle x="56" y="152" width="688" height="128" />
+	            <texture id="103" language_id="1" />
+	            <texture id="104" language_id="2" />
+	        </label>
+	    </labels>
+		<buttons>
+			<button name="btn_new" z_index="1">
+		        <rectangle x="140" y="360" width="96" height="96" />
+		        <texture id="501" />
+		    </button>
+		    <button name="btn_load" z_index="1">
+		        <rectangle x="246" y="360" width="96" height="96" />
+		        <texture id="502" />
+		    </button>
+		    <button name="btn_encyclopedia" z_index="1">
+		        <rectangle x="352" y="360" width="96" height="96" />
+		        <texture id="503" />
+		    </button>
+		    <button name="btn_options" z_index="1">
+		        <rectangle x="458" y="360" width="96" height="96" />
+		        <texture id="504" />
+		    </button>
+		    <button name="btn_about" z_index="1">
+		        <rectangle x="564" y="360" width="96" height="96" />
+		        <texture id="505" />
+		    </button>
+		    <button name="btn_yes" z_index="2" visible="false">
+		        <rectangle x="292" y="360" width="96" height="96" />
+		        <texture id="506" />
+		    </button>
+		    <button name="btn_no" z_index="2" visible="false">
+		        <rectangle x="412" y="360" width="96" height="96" />
+		       	<texture id="507" />
+		    </button>
+		</buttons>
+	</panels>
+</config>

@@ -1,0 +1,1326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<languages>
+        <language id="1" name="english" />
+        <language id="2" name="russian" />
+    </languages>
+    <assets>
+	    <textures root_path="textures/screens/encyclopedia/">
+	        <texture id="1" file_name="bg_main.png" />
+	        <texture id="2" file_name="bg_splash.png" />
+	        <texture id="101" file_name="lbl_main_title_eng.png" language_id="1" />
+	        <texture id="102" file_name="lbl_main_title_rus.png" language_id="2" />
+	        <texture id="103" file_name="lbl_title_towers_eng.png" language_id="1" />
+	        <texture id="104" file_name="lbl_title_towers_rus.png" language_id="2" />
+	        <texture id="105" file_name="lbl_title_enemies_eng.png" language_id="1" />
+	        <texture id="106" file_name="lbl_title_enemies_rus.png" language_id="2" />
+	        <texture id="107" file_name="lbl_title_auxiliaries_eng.png" language_id="1" />
+	        <texture id="108" file_name="lbl_title_auxiliaries_rus.png" language_id="2" />
+	        <texture id="109" file_name="lbl_cone_light.png" />
+	        <texture id="110" file_name="lbl_cone_heavy.png" />
+	        <texture id="111" file_name="lbl_pyramid_light.png" />
+	        <texture id="112" file_name="lbl_pyramid_heavy.png" />
+	        <texture id="113" file_name="lbl_cube_light.png" />
+	        <texture id="114" file_name="lbl_cube_heavy.png" />
+	        <texture id="115" file_name="lbl_cylinder_light.png" />
+	        <texture id="116" file_name="lbl_cylinder_heavy.png" />
+	        <texture id="117" file_name="lbl_energycircle.png" />
+	        <texture id="118" file_name="lbl_firecircle.png" />
+	        <texture id="119" file_name="lbl_barret.png" />
+	        <texture id="120" file_name="lbl_beadle.png" />
+	        <texture id="121" file_name="lbl_black_mage.png" />
+	        <texture id="122" file_name="lbl_brux.png" />
+	        <texture id="123" file_name="lbl_dewie.png" />
+	        <texture id="124" file_name="lbl_drax.png" />
+	        <texture id="125" file_name="lbl_golbez.png" />
+	        <texture id="126" file_name="lbl_xulk.png" />
+	        <texture id="127" file_name="lbl_jenova.png" />
+	        <texture id="128" file_name="lbl_killer.png" />
+	        <texture id="129" file_name="lbl_luminar.png" />
+	        <texture id="130" file_name="lbl_phoenix.png" />
+	        <texture id="131" file_name="lbl_pirate.png" />
+	        <texture id="132" file_name="lbl_ryuk.png" />
+	        <texture id="133" file_name="lbl_shadow.png" />
+	        <texture id="134" file_name="lbl_zemus.png" />
+	        <texture id="135" file_name="lbl_leviathan.png" />
+	        <texture id="136" file_name="lbl_ifrit.png" />
+	        <texture id="137" file_name="lbl_bahamut.png" />
+	        <texture id="138" file_name="lbl_measure_towers_auxiliaries.png" />
+	        <texture id="139" file_name="lbl_measure_enemies.png" />
+	        <texture id="140" file_name="lbl_towers_eng.png" language_id="1" />
+	        <texture id="141" file_name="lbl_towers_rus.png" language_id="2" />
+	        <texture id="142" file_name="lbl_super_weapon_eng.png" language_id="1" />
+	        <texture id="143" file_name="lbl_super_weapon_rus.png" language_id="2" />
+	        <texture id="144" file_name="lbl_enemies_eng.png" language_id="1" />
+	        <texture id="145" file_name="lbl_enemies_rus.png" language_id="2" />
+	        <texture id="501" file_name="btn_back.png" />
+	        <texture id="502" file_name="btn_towers.png" />
+	        <texture id="503" file_name="btn_auxiliaries.png" />
+	        <texture id="504" file_name="btn_enemies.png" />
+	        <texture id="505" file_name="btn_ok.png" />
+	        <texture id="506" file_name="btn_cone_light.png" />
+	        <texture id="507" file_name="btn_cone_heavy.png" />
+	        <texture id="508" file_name="btn_pyramid_light.png" />
+	        <texture id="509" file_name="btn_pyramid_heavy.png" />
+	        <texture id="510" file_name="btn_cube_light.png" />
+	        <texture id="511" file_name="btn_cube_heavy.png" />
+	        <texture id="512" file_name="btn_cylinder_light.png" />
+	        <texture id="513" file_name="btn_cylinder_heavy.png" />
+	        <texture id="514" file_name="btn_energycircle.png" />
+	        <texture id="515" file_name="btn_firecircle.png" />
+	        <texture id="516" file_name="btn_barret.png" />
+	        <texture id="517" file_name="btn_beadle.png" />
+	        <texture id="518" file_name="btn_black_mage.png" />
+	        <texture id="519" file_name="btn_brux.png" />
+	        <texture id="520" file_name="btn_dewie.png" />
+	        <texture id="521" file_name="btn_drax.png" />
+	        <texture id="522" file_name="btn_golbez.png" />
+	        <texture id="523" file_name="btn_xulk.png" />
+	        <texture id="524" file_name="btn_jenova.png" />
+	        <texture id="525" file_name="btn_killer.png" />
+	        <texture id="526" file_name="btn_luminar.png" />
+	        <texture id="527" file_name="btn_phoenix.png" />
+	        <texture id="528" file_name="btn_pirate.png" />
+	        <texture id="529" file_name="btn_ryuk.png" />
+	        <texture id="530" file_name="btn_shadow.png" />
+	        <texture id="531" file_name="btn_zemus.png" />
+	        <texture id="532" file_name="btn_leviathan.png" />
+	        <texture id="533" file_name="btn_ifrit.png" />
+	        <texture id="534" file_name="btn_bahamut.png" />
+	        <texture id="535" file_name="btn_help.png" />
+	    </textures>
+		<fonts root_path="fonts/">
+		    <font id="1" file_name="exo_2_0_bold.fnt" />
+		</fonts>
+		<sounds root_path="sounds/">
+		    <sound file_name="btn_touch.mp3" />
+		</sounds>
+	</assets>
+	<panels>
+    	<labels>
+	        <label name="bg_main" z_index="1">
+	            <rectangle x="-27" y="-60" width="854" height="600" />
+	            <texture id="1" />
+	        </label>
+	        <label name="bg_splash" visible="false" z_index="3">
+	            <rectangle x="-27" y="-60" width="854" height="600" />
+	            <texture id="2" />
+	        </label>
+	        <label name="lbl_main_title" z_index="2">
+	            <rectangle x="160" y="10" width="480" height="80" />
+	            <texture id="101" language_id="1" />
+	            <texture id="102" language_id="2" />
+	        </label>
+	        <label name="lbl_title_towers" z_index="4" visible="false">
+	            <rectangle x="200" y="10" width="400" height="80" />
+	            <texture id="103" language_id="1" />
+	            <texture id="104" language_id="2" />
+	        </label>
+	        <label name="lbl_title_enemies" z_index="4" visible="false">
+	            <rectangle x="200" y="10" width="400" height="80" />
+	            <texture id="105" language_id="1" />
+	            <texture id="106" language_id="2" />
+	        </label>
+	        <label name="lbl_title_auxiliaries" z_index="4" visible="false">
+	            <rectangle x="200" y="10" width="400" height="80" />
+	            <texture id="107" language_id="1" />
+	            <texture id="108" language_id="2" />
+	        </label>
+	        <label name="lbl_cone_light" z_index="4" visible="false">
+	            <rectangle x="220" y="110" width="128" height="128" />
+	            <texture id="109" />
+	        </label>
+	        <label name="lbl_cone_heavy" z_index="4" visible="false">
+	            <rectangle x="220" y="110" width="128" height="128" />
+	            <texture id="110" />
+	        </label>
+	        <label name="lbl_pyramid_light" z_index="4" visible="false">
+	            <rectangle x="220" y="110" width="128" height="128" />
+	            <texture id="111" />
+	        </label>
+	        <label name="lbl_pyramid_heavy" z_index="4" visible="false">
+	            <rectangle x="220" y="110" width="128" height="128" />
+	            <texture id="112" />
+	        </label>
+	        <label name="lbl_cube_light" z_index="4" visible="false">
+	            <rectangle x="220" y="110" width="128" height="128" />
+	            <texture id="113" />
+	        </label>
+	        <label name="lbl_cube_heavy" z_index="4" visible="false">
+	            <rectangle x="220" y="110" width="128" height="128" />
+	            <texture id="114" />
+	        </label>
+	        <label name="lbl_cylinder_light" z_index="4" visible="false">
+	            <rectangle x="220" y="110" width="128" height="128" />
+	            <texture id="115" />
+	        </label>
+	        <label name="lbl_cylinder_heavy" z_index="4" visible="false">
+	            <rectangle x="220" y="110" width="128" height="128" />
+	            <texture id="116" />
+	        </label>
+	        <label name="lbl_energycircle" z_index="4" visible="false">
+	            <rectangle x="278" y="110" width="128" height="128" />
+	            <texture id="117" />
+	        </label>
+	        <label name="lbl_firecircle" z_index="4" visible="false">
+	            <rectangle x="278" y="110" width="128" height="128" />
+	            <texture id="118" />
+	        </label>
+	        <label name="lbl_barret" z_index="4" visible="false">
+	            <rectangle x="220" y="97" width="128" height="128" />
+	            <texture id="119" />
+	        </label>
+	        <label name="lbl_beadle" z_index="4" visible="false">
+	            <rectangle x="220" y="97" width="128" height="128" />
+	            <texture id="120" />
+	        </label>
+	        <label name="lbl_black_mage" z_index="4" visible="false">
+	            <rectangle x="220" y="97" width="128" height="128" />
+	            <texture id="121" />
+	        </label>
+	        <label name="lbl_brux" z_index="4" visible="false">
+	            <rectangle x="220" y="97" width="128" height="128" />
+	            <texture id="122" />
+	        </label>
+	        <label name="lbl_dewie" z_index="4" visible="false">
+	            <rectangle x="220" y="97" width="128" height="128" />
+	            <texture id="123" />
+	        </label>
+	        <label name="lbl_drax" z_index="4" visible="false">
+	            <rectangle x="220" y="97" width="128" height="128" />
+	            <texture id="124" />
+	        </label>
+	        <label name="lbl_golbez" z_index="4" visible="false">
+	            <rectangle x="220" y="97" width="128" height="128" />
+	            <texture id="125" />
+	        </label>
+	        <label name="lbl_xulk" z_index="4" visible="false">
+	            <rectangle x="220" y="97" width="128" height="128" />
+	            <texture id="126" />
+	        </label>
+	        <label name="lbl_jenova" z_index="4" visible="false">
+	            <rectangle x="220" y="97" width="128" height="128" />
+	            <texture id="127" />
+	        </label>
+	        <label name="lbl_killer" z_index="4" visible="false">
+	            <rectangle x="220" y="97" width="128" height="128" />
+	            <texture id="128" />
+	        </label>
+	        <label name="lbl_luminar" z_index="4" visible="false">
+	            <rectangle x="220" y="97" width="128" height="128" />
+	            <texture id="129" />
+	        </label>
+	        <label name="lbl_phoenix" z_index="4" visible="false">
+	            <rectangle x="220" y="97" width="128" height="128" />
+	            <texture id="130" />
+	        </label>
+	        <label name="lbl_pirate" z_index="4" visible="false">
+	            <rectangle x="220" y="97" width="128" height="128" />
+	            <texture id="131" />
+	        </label>
+	        <label name="lbl_ryuk" z_index="4" visible="false">
+	            <rectangle x="220" y="97" width="128" height="128" />
+	            <texture id="132" />
+	        </label>
+	        <label name="lbl_shadow" z_index="4" visible="false">
+	            <rectangle x="220" y="97" width="128" height="128" />
+	            <texture id="133" />
+	        </label>
+	        <label name="lbl_zemus" z_index="4" visible="false">
+	            <rectangle x="220" y="97" width="128" height="128" />
+	            <texture id="134" />
+	        </label>
+	        <label name="lbl_leviathan" z_index="4" visible="false">
+	            <rectangle x="220" y="97" width="128" height="128" />
+	            <texture id="135" />
+	        </label>
+	        <label name="lbl_ifrit" z_index="4" visible="false">
+	            <rectangle x="220" y="97" width="128" height="128" />
+	            <texture id="136" />
+	        </label>
+	        <label name="lbl_bahamut" z_index="4" visible="false">
+	            <rectangle x="220" y="97" width="128" height="128" />
+	            <texture id="137" />
+	        </label>
+	        <label name="lbl_measure_towers" z_index="4" visible="false">
+	            <rectangle x="220" y="273" width="32" height="96" />
+	            <texture id="138" />
+	        </label>
+	        <label name="lbl_measure_auxiliaries" z_index="4" visible="false">
+	            <rectangle x="278" y="273" width="32" height="96" />
+	            <texture id="138" />
+	        </label>
+	        <label name="lbl_measure_enemies" z_index="4" visible="false">
+	            <rectangle x="220" y="258" width="32" height="160" />
+	            <texture id="139" />
+	        </label>
+	        <label name="lbl_towers" z_index="2">
+	            <rectangle x="230" y="264" width="128" height="64" />
+	            <texture id="140" language_id="1" />
+	            <texture id="141" language_id="2" />
+	        </label>
+	        <label name="lbl_super_weapon" z_index="2">
+	            <rectangle x="336" y="264" width="128" height="64" />
+	            <texture id="142" language_id="1" />
+	            <texture id="143" language_id="2" />
+	        </label>
+	        <label name="lbl_enemies" z_index="2">
+	            <rectangle x="442" y="264" width="128" height="64" />
+	            <texture id="144" language_id="1" />
+	            <texture id="145" language_id="2" />
+	        </label>
+	    </labels>
+		<text_fields>
+ 	        <text_field name="txt_range_info" z_index="4" visible="false">
+	            <rectangle x="5" y="280" width="0" height="0" />
+	            <text language_id="1">Firing range</text>
+	            <text language_id="2">Дальность выстрела</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_health_info" z_index="4" visible="false">
+	            <rectangle x="5" y="313" width="0" height="0" />
+	            <text language_id="1">Enemy damage</text>
+	            <text language_id="2">Урон врага</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_time_info" z_index="4" visible="false">
+	            <rectangle x="5" y="346" width="0" height="0" />
+	            <text language_id="1">Cooldown time</text>
+	            <text language_id="2">Время перезарядки</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_enemy_health_info" z_index="4" visible="false">
+	            <rectangle x="5" y="265" width="0" height="0" />
+	            <text language_id="1">Health</text>
+	            <text language_id="2">Здоровье</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_enemy_speed_info" z_index="4" visible="false">
+	            <rectangle x="5" y="298" width="0" height="0" />
+	            <text language_id="1">Speed</text>
+	            <text language_id="2">Скорость</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_enemy_resistance_info" z_index="4" visible="false">
+	            <rectangle x="5" y="331" width="0" height="0" />
+	            <text language_id="1">Resistance (30%)</text>
+	            <text language_id="2">Броня (30%)</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_enemy_sphere_energy_info" z_index="4" visible="false">
+	            <rectangle x="5" y="364" width="0" height="0" />
+	            <text language_id="1">Sphere damage</text>
+	            <text language_id="2">Урон Сферы</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_enemy_income_info" z_index="4" visible="false">
+	            <rectangle x="5" y="397" width="0" height="0" />
+	            <text language_id="1">Income</text>
+	            <text language_id="2">Вознаграждение</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_cone_light" z_index="4" visible="false">
+	            <rectangle x="220" y="243" width="0" height="0" />
+	            <text language_id="1">Cone (Base)</text>
+	            <text language_id="2">Конус (Базовый)</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_cone_light_range" z_index="4" visible="false">
+	            <rectangle x="257" y="280" width="0" height="0" />
+	            <text language_id="1">Short</text>
+	            <text language_id="2">Близко</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_cone_light_damage" z_index="4" visible="false">
+	            <rectangle x="257" y="313" width="0" height="0" />
+	            <text>6</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_cone_light_time" z_index="4" visible="false">
+	            <rectangle x="257" y="346" width="0" height="0" />
+	            <text language_id="1">Fast</text>
+	            <text language_id="2">Быстро</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_cone_heavy" z_index="4" visible="false">
+	            <rectangle x="220" y="243" width="0" height="0" />
+	            <text language_id="1">Cone (Modern.)</text>
+	            <text language_id="2">Конус (Модерн.)</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_cone_heavy_range" z_index="4" visible="false">
+	            <rectangle x="257" y="280" width="0" height="0" />
+	            <text language_id="1">Short</text>
+	            <text language_id="2">Близко</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_cone_heavy_damage" z_index="4" visible="false">
+	            <rectangle x="257" y="313" width="0" height="0" />
+	            <text>12</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_cone_heavy_time" z_index="4" visible="false">
+	            <rectangle x="257" y="346" width="0" height="0" />
+	            <text language_id="1">Fast</text>
+	            <text language_id="2">Быстро</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+	        <text_field name="txt_pyramid_light" z_index="4" visible="false">
+	            <rectangle x="220" y="243" width="0" height="0" />
+	            <text language_id="1">Pyramid (Base)</text>
+	            <text language_id="2">Пирамида (Базовая)</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_pyramid_light_range" z_index="4" visible="false">
+	            <rectangle x="257" y="280" width="0" height="0" />
+	            <text language_id="1">Short</text>
+	            <text language_id="2">Близко</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_pyramid_light_damage" z_index="4" visible="false">
+	            <rectangle x="257" y="313" width="0" height="0" />
+	            <text>8</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_pyramid_light_time" z_index="4" visible="false">
+	            <rectangle x="257" y="346" width="0" height="0" />
+	            <text language_id="1">Average</text>
+	            <text language_id="2">Средний</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+	        <text_field name="txt_pyramid_heavy" z_index="4" visible="false">
+	            <rectangle x="220" y="243" width="0" height="0" />
+	            <text language_id="1">Pyramid (Modern.)</text>
+	            <text language_id="2">Пирамида (Модерн.)</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_pyramid_heavy_range" z_index="4" visible="false">
+	            <rectangle x="257" y="280" width="0" height="0" />
+	            <text language_id="1">Average</text>
+	            <text language_id="2">Средний</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_pyramid_heavy_damage" z_index="4" visible="false">
+	            <rectangle x="257" y="313" width="0" height="0" />
+	            <text>14</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_pyramid_heavy_time" z_index="4" visible="false">
+	            <rectangle x="257" y="346" width="0" height="0" />
+	            <text language_id="1">Average</text>
+	            <text language_id="2">Средний</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>        
+	        <text_field name="txt_cube_light" z_index="4" visible="false">
+	            <rectangle x="220" y="243" width="0" height="0" />
+	            <text language_id="1">Cube (Base)</text>
+	            <text language_id="2">Куб (Базовый)</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_cube_light_range" z_index="4" visible="false">
+	            <rectangle x="257" y="280" width="0" height="0" />
+	            <text language_id="1">Average</text>
+	            <text language_id="2">Средний</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_cube_light_damage" z_index="4" visible="false">
+	            <rectangle x="257" y="313" width="0" height="0" />
+	            <text>10</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_cube_light_time" z_index="4" visible="false">
+	            <rectangle x="257" y="346" width="0" height="0" />
+	            <text language_id="1">Slow</text>
+	            <text language_id="2">Медленно</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>  
+	        <text_field name="txt_cube_heavy" z_index="4" visible="false">
+	            <rectangle x="220" y="243" width="0" height="0" />
+	            <text language_id="1">Cube (Modern.)</text>
+	            <text language_id="2">Куб (Модерн.)</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_cube_heavy_range" z_index="4" visible="false">
+	            <rectangle x="257" y="280" width="0" height="0" />
+	            <text language_id="1">Long</text>
+	            <text language_id="2">Далеко</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_cube_heavy_damage" z_index="4" visible="false">
+	            <rectangle x="257" y="313" width="0" height="0" />
+	            <text>16</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_cube_heavy_time" z_index="4" visible="false">
+	            <rectangle x="257" y="346" width="0" height="0" />
+	            <text language_id="1">Slow</text>
+	            <text language_id="2">Медленно</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>  
+	        <text_field name="txt_cylinder_light" z_index="4" visible="false">
+	            <rectangle x="220" y="243" width="0" height="0" />
+	            <text language_id="1">Cylinder (Base)</text>
+	            <text language_id="2">Цилиндр (Базовый)</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_cylinder_light_range" z_index="4" visible="false">
+	            <rectangle x="257" y="280" width="0" height="0" />
+	            <text language_id="1">Long</text>
+	            <text language_id="2">Далеко</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_cylinder_light_damage" z_index="4" visible="false">
+	            <rectangle x="257" y="313" width="0" height="0" />
+	            <text>12</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_cylinder_light_time" z_index="4" visible="false">
+	            <rectangle x="257" y="346" width="0" height="0" />
+	            <text language_id="1">Very slow</text>
+	            <text language_id="2">Очень медленно</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>  
+	        <text_field name="txt_cylinder_heavy" z_index="4" visible="false">
+	            <rectangle x="220" y="243" width="0" height="0" />
+	            <text language_id="1">Cylinder (Modern.)</text>
+	            <text language_id="2">Цилиндр (Модерн.)</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_cylinder_heavy_range" z_index="4" visible="false">
+	            <rectangle x="257" y="280" width="0" height="0" />
+	            <text language_id="1">Very long</text>
+	            <text language_id="2">Очень далеко</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_cylinder_heavy_damage" z_index="4" visible="false">
+	            <rectangle x="257" y="313" width="0" height="0" />
+	            <text>18</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_cylinder_heavy_time" z_index="4" visible="false">
+	            <rectangle x="257" y="346" width="0" height="0" />
+	            <text language_id="1">Very slow</text>
+	            <text language_id="2">Очень медленно</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>  
+	        <text_field name="txt_energycircle" z_index="4" visible="false">
+	            <rectangle x="278" y="243" width="0" height="0" />
+	            <text language_id="1">Energy circle</text>
+	            <text language_id="2">Енергитический шар</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_energycircle_range" z_index="4" visible="false">
+	            <rectangle x="315" y="280" width="0" height="0" />
+	            <text language_id="1">To the healthiest enemy</text>
+	            <text language_id="2">К самому здоровому врагу</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_energycircle_damage" z_index="4" visible="false">
+	            <rectangle x="315" y="313" width="0" height="0" />
+	            <text>8</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_energycircle_time" z_index="4" visible="false">
+	            <rectangle x="315" y="346" width="0" height="0" />
+	            <text language_id="1">25 seconds</text>
+	            <text language_id="2">25 секунд</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>  
+	        <text_field name="txt_firecircle" z_index="4" visible="false">
+	            <rectangle x="278" y="243" width="0" height="0" />
+	            <text language_id="1">Fire circle</text>
+	            <text language_id="2">Огненный шар</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_firecircle_range" z_index="4" visible="false">
+	            <rectangle x="315" y="280" width="0" height="0" />
+	            <text language_id="1">To the healthiest enemy</text>
+	            <text language_id="2">К самому здоровому врагу</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_firecircle_damage" z_index="4" visible="false">
+	            <rectangle x="315" y="313" width="0" height="0" />
+	            <text>12</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_firecircle_time" z_index="4" visible="false">
+	            <rectangle x="315" y="346" width="0" height="0" />
+	            <text language_id="1">50 seconds</text>
+	            <text language_id="2">50 секунд</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field> 
+	        <text_field name="txt_barret" z_index="4" visible="false">
+	            <rectangle x="220" y="230" width="0" height="0" />
+	            <text language_id="1">Barret</text>
+	            <text language_id="2">Баррет</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_barret_health" z_index="4" visible="false">
+	            <rectangle x="257" y="265" width="0" height="0" />
+	            <text>8</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_barret_speed" z_index="4" visible="false">
+	            <rectangle x="257" y="298" width="0" height="0" />
+	            <text language_id="1">Fast</text>
+	            <text language_id="2">Быстро</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_barret_resistance" z_index="4" visible="false">
+	            <rectangle x="257" y="331" width="0" height="0" />
+	            <text language_id="1">None</text>
+	            <text language_id="2">Нету</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_barret_damage" z_index="4" visible="false">
+	            <rectangle x="257" y="364" width="0" height="0" />
+				<text>1</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_barret_income" z_index="4" visible="false">
+	            <rectangle x="257" y="397" width="0" height="0" />
+	            <text>5</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+	        <text_field name="txt_beadle" z_index="4" visible="false">
+	            <rectangle x="220" y="230" width="0" height="0" />
+	            <text language_id="1">Beadle</text>
+	            <text language_id="2">Бидл</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_beadle_health" z_index="4" visible="false">
+	            <rectangle x="257" y="265" width="0" height="0" />
+	            <text>10</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_beadle_speed" z_index="4" visible="false">
+	            <rectangle x="257" y="298" width="0" height="0" />
+	            <text language_id="1">Fast</text>
+	            <text language_id="2">Быстро</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_beadle_resistance" z_index="4" visible="false">
+	            <rectangle x="257" y="331" width="0" height="0" />
+	            <text language_id="1">None</text>
+	            <text language_id="2">Нету</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_beadle_damage" z_index="4" visible="false">
+	            <rectangle x="257" y="364" width="0" height="0" />
+				<text>1</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_beadle_income" z_index="4" visible="false">
+	            <rectangle x="257" y="397" width="0" height="0" />
+	            <text>6</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+	        <text_field name="txt_black_mage" z_index="4" visible="false">
+	            <rectangle x="220" y="230" width="0" height="0" />
+	            <text language_id="1">Black Mage</text>
+	            <text language_id="2">Темный маг</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_black_mage_health" z_index="4" visible="false">
+	            <rectangle x="257" y="265" width="0" height="0" />
+	            <text>12</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_black_mage_speed" z_index="4" visible="false">
+	            <rectangle x="257" y="298" width="0" height="0" />
+	            <text language_id="1">Fast</text>
+	            <text language_id="2">Быстро</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_black_mage_resistance" z_index="4" visible="false">
+	            <rectangle x="257" y="331" width="0" height="0" />
+	            <text language_id="1">Cone</text>
+	            <text language_id="2">Конус</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_black_mage_damage" z_index="4" visible="false">
+	            <rectangle x="257" y="364" width="0" height="0" />
+				<text>1</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_black_mage_income" z_index="4" visible="false">
+	            <rectangle x="257" y="397" width="0" height="0" />
+	            <text>7</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+	        <text_field name="txt_brux" z_index="4" visible="false">
+	            <rectangle x="220" y="230" width="0" height="0" />
+	            <text language_id="1">Brux</text>
+	            <text language_id="2">Бракс</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_brux_health" z_index="4" visible="false">
+	            <rectangle x="257" y="265" width="0" height="0" />
+	            <text>14</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_brux_speed" z_index="4" visible="false">
+	            <rectangle x="257" y="298" width="0" height="0" />
+	            <text language_id="1">Fast</text>
+	            <text language_id="2">Быстро</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_brux_resistance" z_index="4" visible="false">
+	            <rectangle x="257" y="331" width="0" height="0" />
+	            <text language_id="1">None</text>
+	            <text language_id="2">Нету</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_brux_damage" z_index="4" visible="false">
+	            <rectangle x="257" y="364" width="0" height="0" />
+				<text>1</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_brux_income" z_index="4" visible="false">
+	            <rectangle x="257" y="397" width="0" height="0" />
+	            <text>8</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+	        <text_field name="txt_dewie" z_index="4" visible="false">
+	            <rectangle x="220" y="230" width="0" height="0" />
+	            <text language_id="1">Dewie</text>
+	            <text language_id="2">Дьюви</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_dewie_health" z_index="4" visible="false">
+	            <rectangle x="257" y="265" width="0" height="0" />
+	            <text>16</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_dewie_speed" z_index="4" visible="false">
+	            <rectangle x="257" y="298" width="0" height="0" />
+	            <text language_id="1">Fast</text>
+	            <text language_id="2">Быстро</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_dewie_resistance" z_index="4" visible="false">
+	            <rectangle x="257" y="331" width="0" height="0" />
+	            <text language_id="1">Piramide</text>
+	            <text language_id="2">Пирамида</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_dewie_damage" z_index="4" visible="false">
+	            <rectangle x="257" y="364" width="0" height="0" />
+				<text>1</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_dewie_income" z_index="4" visible="false">
+	            <rectangle x="257" y="397" width="0" height="0" />
+	            <text>9</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+	        <text_field name="txt_drax" z_index="4" visible="false">
+	            <rectangle x="220" y="230" width="0" height="0" />
+	            <text language_id="1">Drax</text>
+	            <text language_id="2">Дрекс</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_drax_health" z_index="4" visible="false">
+	            <rectangle x="257" y="265" width="0" height="0" />
+	            <text>18</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_drax_speed" z_index="4" visible="false">
+	            <rectangle x="257" y="298" width="0" height="0" />
+	            <text language_id="1">Average</text>
+	            <text language_id="2">Средний</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_drax_resistance" z_index="4" visible="false">
+	            <rectangle x="257" y="331" width="0" height="0" />
+	            <text language_id="1">None</text>
+	            <text language_id="2">Нету</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_drax_damage" z_index="4" visible="false">
+	            <rectangle x="257" y="364" width="0" height="0" />
+				<text>2</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_drax_income" z_index="4" visible="false">
+	            <rectangle x="257" y="397" width="0" height="0" />
+	            <text>10</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+	        <text_field name="txt_golbez" z_index="4" visible="false">
+	            <rectangle x="220" y="230" width="0" height="0" />
+	            <text language_id="1">Golbez</text>
+	            <text language_id="2">Голбез</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_golbez_health" z_index="4" visible="false">
+	            <rectangle x="257" y="265" width="0" height="0" />
+	            <text>20</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_golbez_speed" z_index="4" visible="false">
+	            <rectangle x="257" y="298" width="0" height="0" />
+	            <text language_id="1">Average</text>
+	            <text language_id="2">Средний</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_golbez_resistance" z_index="4" visible="false">
+	            <rectangle x="257" y="331" width="0" height="0" />
+	            <text language_id="1">None</text>
+	            <text language_id="2">Нету</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_golbez_damage" z_index="4" visible="false">
+	            <rectangle x="257" y="364" width="0" height="0" />
+				<text>2</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_golbez_income" z_index="4" visible="false">
+	            <rectangle x="257" y="397" width="0" height="0" />
+	            <text>11</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+	        <text_field name="txt_xulk" z_index="4" visible="false">
+	            <rectangle x="220" y="230" width="0" height="0" />
+	            <text language_id="1">Xulk</text>
+	            <text language_id="2">Ксалк</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_xulk_health" z_index="4" visible="false">
+	            <rectangle x="257" y="265" width="0" height="0" />
+	            <text>22</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_xulk_speed" z_index="4" visible="false">
+	            <rectangle x="257" y="298" width="0" height="0" />
+	            <text language_id="1">Average</text>
+	            <text language_id="2">Средний</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_xulk_resistance" z_index="4" visible="false">
+	            <rectangle x="257" y="331" width="0" height="0" />
+	            <text language_id="1">Cube</text>
+	            <text language_id="2">Куб</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_xulk_damage" z_index="4" visible="false">
+	            <rectangle x="257" y="364" width="0" height="0" />
+				<text>2</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_xulk_income" z_index="4" visible="false">
+	            <rectangle x="257" y="397" width="0" height="0" />
+	            <text>12</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+	        <text_field name="txt_jenova" z_index="4" visible="false">
+	            <rectangle x="220" y="230" width="0" height="0" />
+	            <text language_id="1">Jenova</text>
+	            <text language_id="2">Иенова</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_jenova_health" z_index="4" visible="false">
+	            <rectangle x="257" y="265" width="0" height="0" />
+	            <text>24</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_jenova_speed" z_index="4" visible="false">
+	            <rectangle x="257" y="298" width="0" height="0" />
+	            <text language_id="1">Average</text>
+	            <text language_id="2">Средний</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_jenova_resistance" z_index="4" visible="false">
+	            <rectangle x="257" y="331" width="0" height="0" />
+	            <text language_id="1">None</text>
+	            <text language_id="2">Нету</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_jenova_damage" z_index="4" visible="false">
+	            <rectangle x="257" y="364" width="0" height="0" />
+				<text>2</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_jenova_income" z_index="4" visible="false">
+	            <rectangle x="257" y="397" width="0" height="0" />
+	            <text>13</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+	        <text_field name="txt_killer" z_index="4" visible="false">
+	            <rectangle x="220" y="230" width="0" height="0" />
+	            <text language_id="1">Killer</text>
+	            <text language_id="2">Убийца</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_killer_health" z_index="4" visible="false">
+	            <rectangle x="257" y="265" width="0" height="0" />
+	            <text>26</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_killer_speed" z_index="4" visible="false">
+	            <rectangle x="257" y="298" width="0" height="0" />
+	            <text language_id="1">Average</text>
+	            <text language_id="2">Средний</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_killer_resistance" z_index="4" visible="false">
+	            <rectangle x="257" y="331" width="0" height="0" />
+	            <text language_id="1">None</text>
+	            <text language_id="2">Нету</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_killer_damage" z_index="4" visible="false">
+	            <rectangle x="257" y="364" width="0" height="0" />
+				<text>2</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_killer_income" z_index="4" visible="false">
+	            <rectangle x="257" y="397" width="0" height="0" />
+	            <text>14</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+	        <text_field name="txt_luminar" z_index="4" visible="false">
+	            <rectangle x="220" y="230" width="0" height="0" />
+	            <text language_id="1">Luminar</text>
+	            <text language_id="2">Луминар</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_luminar_health" z_index="4" visible="false">
+	            <rectangle x="257" y="265" width="0" height="0" />
+	            <text>28</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_luminar_speed" z_index="4" visible="false">
+	            <rectangle x="257" y="298" width="0" height="0" />
+	            <text language_id="1">Average</text>
+	            <text language_id="2">Средний</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_luminar_resistance" z_index="4" visible="false">
+	            <rectangle x="257" y="331" width="0" height="0" />
+	            <text language_id="1">Cube</text>
+	            <text language_id="2">Куб</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_luminar_damage" z_index="4" visible="false">
+	            <rectangle x="257" y="364" width="0" height="0" />
+				<text>2</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_luminar_income" z_index="4" visible="false">
+	            <rectangle x="257" y="397" width="0" height="0" />
+	            <text>15</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+	        <text_field name="txt_phoenix" z_index="4" visible="false">
+	            <rectangle x="220" y="230" width="0" height="0" />
+	            <text language_id="1">Phoenix</text>
+	            <text language_id="2">Феникс</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_phoenix_health" z_index="4" visible="false">
+	            <rectangle x="257" y="265" width="0" height="0" />
+	            <text>30</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_phoenix_speed" z_index="4" visible="false">
+	            <rectangle x="257" y="298" width="0" height="0" />
+	            <text language_id="1">Slow</text>
+	            <text language_id="2">Медленно</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_phoenix_resistance" z_index="4" visible="false">
+	            <rectangle x="257" y="331" width="0" height="0" />
+	            <text language_id="1">None</text>
+	            <text language_id="2">Нету</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_phoenix_damage" z_index="4" visible="false">
+	            <rectangle x="257" y="364" width="0" height="0" />
+				<text>3</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_phoenix_income" z_index="4" visible="false">
+	            <rectangle x="257" y="397" width="0" height="0" />
+	            <text>16</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+	        <text_field name="txt_pirate" z_index="4" visible="false">
+	            <rectangle x="220" y="230" width="0" height="0" />
+	            <text language_id="1">Pirate</text>
+	            <text language_id="2">Пират</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_pirate_health" z_index="4" visible="false">
+	            <rectangle x="257" y="265" width="0" height="0" />
+	            <text>32</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_pirate_speed" z_index="4" visible="false">
+	            <rectangle x="257" y="298" width="0" height="0" />
+	            <text language_id="1">Slow</text>
+	            <text language_id="2">Медленно</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_pirate_resistance" z_index="4" visible="false">
+	            <rectangle x="257" y="331" width="0" height="0" />
+	            <text language_id="1">Cylinder</text>
+	            <text language_id="2">Цилиндр</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_pirate_damage" z_index="4" visible="false">
+	            <rectangle x="257" y="364" width="0" height="0" />
+				<text>3</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_pirate_income" z_index="4" visible="false">
+	            <rectangle x="257" y="397" width="0" height="0" />
+	            <text>17</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+	        <text_field name="txt_ryuk" z_index="4" visible="false">
+	            <rectangle x="220" y="230" width="0" height="0" />
+	            <text language_id="1">Ryuk</text>
+	            <text language_id="2">Риук</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_ryuk_health" z_index="4" visible="false">
+	            <rectangle x="257" y="265" width="0" height="0" />
+	            <text>34</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_ryuk_speed" z_index="4" visible="false">
+	            <rectangle x="257" y="298" width="0" height="0" />
+	            <text language_id="1">Slow</text>
+	            <text language_id="2">Медленно</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_ryuk_resistance" z_index="4" visible="false">
+	            <rectangle x="257" y="331" width="0" height="0" />
+	            <text language_id="1">None</text>
+	            <text language_id="2">Нету</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_ryuk_damage" z_index="4" visible="false">
+	            <rectangle x="257" y="364" width="0" height="0" />
+				<text>3</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_ryuk_income" z_index="4" visible="false">
+	            <rectangle x="257" y="397" width="0" height="0" />
+	            <text>18</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+	        <text_field name="txt_shadow" z_index="4" visible="false">
+	            <rectangle x="220" y="230" width="0" height="0" />
+	            <text language_id="1">Shadow</text>
+	            <text language_id="2">Тень</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_shadow_health" z_index="4" visible="false">
+	            <rectangle x="257" y="265" width="0" height="0" />
+	            <text>36</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_shadow_speed" z_index="4" visible="false">
+	            <rectangle x="257" y="298" width="0" height="0" />
+	            <text language_id="1">Slow</text>
+	            <text language_id="2">Медленно</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_shadow_resistance" z_index="4" visible="false">
+	            <rectangle x="257" y="331" width="0" height="0" />
+	            <text language_id="1">None</text>
+	            <text language_id="2">Нету</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_shadow_damage" z_index="4" visible="false">
+	            <rectangle x="257" y="364" width="0" height="0" />
+				<text>3</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_shadow_income" z_index="4" visible="false">
+	            <rectangle x="257" y="397" width="0" height="0" />
+	            <text>19</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+	        <text_field name="txt_zemus" z_index="4" visible="false">
+	            <rectangle x="220" y="230" width="0" height="0" />
+	            <text language_id="1">Zemus</text>
+	            <text language_id="2">Земус</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_zemus_health" z_index="4" visible="false">
+	            <rectangle x="257" y="265" width="0" height="0" />
+	            <text>38</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_zemus_speed" z_index="4" visible="false">
+	            <rectangle x="257" y="298" width="0" height="0" />
+	            <text language_id="1">Slow</text>
+	            <text language_id="2">Медленно</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_zemus_resistance" z_index="4" visible="false">
+	            <rectangle x="257" y="331" width="0" height="0" />
+	            <text language_id="1">Cylinder</text>
+	            <text language_id="2">Цилиндр</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_zemus_damage" z_index="4" visible="false">
+	            <rectangle x="257" y="364" width="0" height="0" />
+				<text>3</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_zemus_income" z_index="4" visible="false">
+	            <rectangle x="257" y="397" width="0" height="0" />
+	            <text>20</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+	        <text_field name="txt_leviathan" z_index="4" visible="false">
+	            <rectangle x="220" y="230" width="0" height="0" />
+	            <text language_id="1">Leviathan</text>
+	            <text language_id="2">Левиафан</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_leviathan_health" z_index="4" visible="false">
+	            <rectangle x="257" y="265" width="0" height="0" />
+	            <text>5</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_leviathan_speed" z_index="4" visible="false">
+	            <rectangle x="257" y="298" width="0" height="0" />
+	            <text language_id="1">Slow</text>
+	            <text language_id="2">Медленно</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_leviathan_resistance" z_index="4" visible="false">
+	            <rectangle x="257" y="331" width="0" height="0" />
+	            <text language_id="1">None</text>
+	            <text language_id="2">Нету</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_leviathan_damage" z_index="4" visible="false">
+	            <rectangle x="257" y="364" width="0" height="0" />
+				<text>20</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_leviathan_income" z_index="4" visible="false">
+	            <rectangle x="257" y="397" width="0" height="0" />
+	            <text language_id="1">None</text>
+	            <text language_id="2">Нету</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+	        <text_field name="txt_ifrit" z_index="4" visible="false">
+	            <rectangle x="220" y="230" width="0" height="0" />
+	            <text language_id="1">Ifrit</text>
+	            <text language_id="2">Ифрит</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_ifrit_health" z_index="4" visible="false">
+	            <rectangle x="257" y="265" width="0" height="0" />
+	            <text>5</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_ifrit_speed" z_index="4" visible="false">
+	            <rectangle x="257" y="298" width="0" height="0" />
+	            <text language_id="1">Slow</text>
+	            <text language_id="2">Медленно</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_ifrit_resistance" z_index="4" visible="false">
+	            <rectangle x="257" y="331" width="0" height="0" />
+	            <text language_id="1">None</text>
+	            <text language_id="2">Нету</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_ifrit_damage" z_index="4" visible="false">
+	            <rectangle x="257" y="364" width="0" height="0" />
+				<text>20</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_ifrit_income" z_index="4" visible="false">
+	            <rectangle x="257" y="397" width="0" height="0" />
+	            <text language_id="1">None</text>
+	            <text language_id="2">Нету</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+	        <text_field name="txt_bahamut" z_index="4" visible="false">
+	            <rectangle x="220" y="230" width="0" height="0" />
+	            <text language_id="1">Bahamut</text>
+	            <text language_id="2">Бахамут</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_bahamut_health" z_index="4" visible="false">
+	            <rectangle x="257" y="265" width="0" height="0" />
+	            <text>5</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+			<text_field name="txt_bahamut_speed" z_index="4" visible="false">
+	            <rectangle x="257" y="298" width="0" height="0" />
+	            <text language_id="1">Slow</text>
+	            <text language_id="2">Медленно</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_bahamut_resistance" z_index="4" visible="false">
+	            <rectangle x="257" y="331" width="0" height="0" />
+	            <text language_id="1">None</text>
+	            <text language_id="2">Нету</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_bahamut_damage" z_index="4" visible="false">
+	            <rectangle x="257" y="364" width="0" height="0" />
+				<text>20</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+ 	        <text_field name="txt_bahamut_income" z_index="4" visible="false">
+	            <rectangle x="257" y="397" width="0" height="0" />
+	            <text language_id="1">None</text>
+	            <text language_id="2">Нету</text>
+	            <font id="1" r="1" g="1" b="1" scale="0.4" />
+	        </text_field>
+	    </text_fields>
+		<buttons>
+		    <button name="btn_back" z_index="2">
+		        <rectangle x="12" y="372" width="96" height="96" />
+		       	<texture id="501" />
+		    </button>
+		    <button name="btn_towers" z_index="2">
+		        <rectangle x="246" y="168" width="96" height="96" />
+		       	<texture id="502" />
+		    </button>
+		    <button name="btn_auxiliaries" z_index="2">
+		        <rectangle x="352" y="168" width="96" height="96" />
+		       	<texture id="503" />
+		    </button>
+		    <button name="btn_enemies" z_index="2">
+		        <rectangle x="458" y="168" width="96" height="96" />
+		       	<texture id="504" />
+		    </button>
+		    <button name="btn_ok" z_index="4" visible="false">
+		        <rectangle x="730" y="410" width="64" height="64" />
+		       	<texture id="505" />
+		    </button>
+		    <button name="btn_cone_light" z_index="4" visible="false">
+		        <rectangle x="358" y="110" width="48" height="48" />
+		       	<texture id="506" />
+		    </button>
+		    <button name="btn_cone_heavy" z_index="4" visible="false">
+		        <rectangle x="358" y="168" width="48" height="48" />
+		       	<texture id="507" />
+		    </button>
+		    <button name="btn_pyramid_light" z_index="4" visible="false">
+		        <rectangle x="416" y="110" width="48" height="48" />
+		       	<texture id="508" />
+		    </button>
+		    <button name="btn_pyramid_heavy" z_index="4" visible="false">
+		        <rectangle x="416" y="168" width="48" height="48" />
+		       	<texture id="509" />
+		    </button>
+		    <button name="btn_cube_light" z_index="4" visible="false">
+		        <rectangle x="474" y="110" width="48" height="48" />
+		       	<texture id="510" />
+		    </button>
+		    <button name="btn_cube_heavy" z_index="4" visible="false">
+		        <rectangle x="474" y="168" width="48" height="48" />
+		       	<texture id="511" />
+		    </button>
+		    <button name="btn_cylinder_light" z_index="4" visible="false">
+		        <rectangle x="532" y="110" width="48" height="48" />
+		       	<texture id="512" />
+		    </button>
+		    <button name="btn_cylinder_heavy" z_index="4" visible="false">
+		        <rectangle x="532" y="168" width="48" height="48" />
+		       	<texture id="513" />
+		    </button>
+		    <button name="btn_energycircle" z_index="4" visible="false">
+		        <rectangle x="416" y="110" width="48" height="48" />
+		       	<texture id="514" />
+		    </button>
+		    <button name="btn_firecircle" z_index="4" visible="false">
+		        <rectangle x="474" y="110" width="48" height="48" />
+		       	<texture id="515" />
+		    </button>
+		    <button name="btn_barret" z_index="4" visible="false">
+		        <rectangle x="368" y="97" width="48" height="48" />
+		       	<texture id="516" />
+		    </button>
+		    <button name="btn_beadle" z_index="4" visible="false">
+		        <rectangle x="426" y="97" width="48" height="48" />
+		       	<texture id="517" />
+		    </button>
+		    <button name="btn_black_mage" z_index="4" visible="false">
+		        <rectangle x="484" y="97" width="48" height="48" />
+		       	<texture id="518" />
+		    </button>
+		    <button name="btn_brux" z_index="4" visible="false">
+		        <rectangle x="542" y="97" width="48" height="48" />
+		       	<texture id="519" />
+		    </button>
+		    <button name="btn_dewie" z_index="4" visible="false">
+		        <rectangle x="368" y="155" width="48" height="48" />
+		       	<texture id="520" />
+		    </button>
+		    <button name="btn_drax" z_index="4" visible="false">
+		        <rectangle x="426" y="155" width="48" height="48" />
+		       	<texture id="521" />
+		    </button>
+		    <button name="btn_golbez" z_index="4" visible="false">
+		        <rectangle x="484" y="155" width="48" height="48" />
+		       	<texture id="522" />
+		    </button>
+		    <button name="btn_xulk" z_index="4" visible="false">
+		        <rectangle x="542" y="155" width="48" height="48" />
+		       	<texture id="523" />
+		    </button>
+		    <button name="btn_jenova" z_index="4" visible="false">
+		        <rectangle x="368" y="213" width="48" height="48" />
+		       	<texture id="524" />
+		    </button>
+		    <button name="btn_killer" z_index="4" visible="false">
+		        <rectangle x="426" y="213" width="48" height="48" />
+		       	<texture id="525" />
+		    </button>
+		    <button name="btn_luminar" z_index="4" visible="false">
+		        <rectangle x="484" y="213" width="48" height="48" />
+		       	<texture id="526" />
+		    </button>
+		    <button name="btn_phoenix" z_index="4" visible="false">
+		        <rectangle x="542" y="213" width="48" height="48" />
+		       	<texture id="527" />
+		    </button>
+		    <button name="btn_pirate" z_index="4" visible="false">
+		        <rectangle x="368" y="271" width="48" height="48" />
+		       	<texture id="528" />
+		    </button>
+		    <button name="btn_ryuk" z_index="4" visible="false">
+		        <rectangle x="426" y="271" width="48" height="48" />
+		       	<texture id="529" />
+		    </button>
+		    <button name="btn_shadow" z_index="4" visible="false">
+		        <rectangle x="484" y="271" width="48" height="48" />
+		       	<texture id="530" />
+		    </button>
+		    <button name="btn_zemus" z_index="4" visible="false">
+		        <rectangle x="542" y="271" width="48" height="48" />
+		       	<texture id="531" />
+		    </button>
+		    <button name="btn_leviathan" z_index="4" visible="false">
+		        <rectangle x="368" y="329" width="48" height="48" />
+		       	<texture id="532" />
+		    </button>
+		    <button name="btn_ifrit" z_index="4" visible="false">
+		        <rectangle x="426" y="329" width="48" height="48" />
+		       	<texture id="533" />
+		    </button>
+		    <button name="btn_bahamut" z_index="4" visible="false">
+		        <rectangle x="484" y="329" width="48" height="48" />
+		       	<texture id="534" />
+		    </button>
+		    <button name="btn_help" z_index="4" visible="false">
+		        <rectangle x="660" y="410" width="64" height="64" />
+		       	<texture id="535" />
+		    </button>
+		</buttons>
+	</panels>
+</config>

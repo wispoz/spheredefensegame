@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <languages>
+        <language id="1" name="english" />
+        <language id="2" name="russian" />
+    </languages>
+    <assets>
+	    <textures root_path="textures/screens/options/">
+	        <texture id="1" file_name="bg_main.png" />
+	        <texture id="101" file_name="lbl_title_eng.png" language_id="1" />
+	        <texture id="102" file_name="lbl_title_rus.png" language_id="2" />
+	        <texture id="501" file_name="btn_music_on.png" />
+	        <texture id="502" file_name="btn_music_off.png" />
+	        <texture id="503" file_name="btn_sound_on.png" />
+	        <texture id="504" file_name="btn_sound_off.png" />
+	        <texture id="505" file_name="btn_english.png" />
+	        <texture id="506" file_name="btn_russian.png" />
+	        <texture id="507" file_name="btn_back.png" />
+	        <texture id="508" file_name="btn_apply.png" />
+	    </textures>
+		<sounds root_path="sounds/">
+		    <sound file_name="btn_touch.mp3" />
+		</sounds>
+    </assets>
+    <panels>
+		<labels>
+	        <label name="bg_main">
+	            <rectangle x="-27" y="-60" width="854" height="600" />
+	            <texture id="1" />
+	        </label>
+	        <label name="lbl_title">
+	            <rectangle x="200" y="84" width="400" height="96" />
+	            <texture id="101" language_id="1" />
+	            <texture id="102" language_id="2" />
+	        </label>
+	    </labels>
+		<buttons>
+		    <button name="btn_music">
+		        <rectangle x="232" y="240" width="96" height="96" />
+		       	<texture id="501" />
+		    </button>
+		    <button name="btn_sound">
+		        <rectangle x="352" y="240" width="96" height="96" />
+		       	<texture id="503" />
+		    </button>
+		    <button name="btn_language">
+		        <rectangle x="472" y="240" width="96" height="96" />
+		       	<texture id="505" />
+		    </button>
+		    <button name="btn_back">
+		        <rectangle x="12" y="372" width="96" height="96" />
+		       	<texture id="507" />
+		    </button>
+		    <button name="btn_apply">
+		        <rectangle x="692" y="372" width="96" height="96" />
+		       	<texture id="508" />
+		    </button>
+		</buttons>
+	</panels>
+</config>
